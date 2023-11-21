@@ -1,8 +1,23 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="ada8-2d2c-13c7-baf6" name="Burrows and Badgers" revision="2" battleScribeVersion="2.03" library="false" gameSystemId="c942-3815-1836-7dbf" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="ada8-2d2c-13c7-baf6" name="Burrows and Badgers" revision="3" battleScribeVersion="2.03" library="false" gameSystemId="c942-3815-1836-7dbf" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <costTypes>
     <costType id="ff86-214c-8f20-99e9" name="Pennies" defaultCostLimit="-1.0" hidden="false"/>
   </costTypes>
+  <profileTypes>
+    <profileType id="332f-73cc-aa13-ade3" name="Characteristics">
+      <characteristicTypes>
+        <characteristicType id="46c7-571b-166a-542f" name="M"/>
+        <characteristicType id="0bd8-816b-f617-2734" name="S"/>
+        <characteristicType id="7110-3354-3344-e2d8" name="B"/>
+        <characteristicType id="f4b4-5214-115b-a64a" name="R"/>
+        <characteristicType id="c7fa-1176-035f-d293" name="N"/>
+        <characteristicType id="ceca-f7c6-50b8-8d59" name="C"/>
+        <characteristicType id="f7b6-e9d2-033c-b3ac" name="A"/>
+        <characteristicType id="01e7-7ea3-776a-ae40" name="F"/>
+        <characteristicType id="5554-f553-b882-9b11" name="P"/>
+      </characteristicTypes>
+    </profileType>
+  </profileTypes>
   <forceEntries>
     <forceEntry id="5e2a-7ed3-67a6-8120" name="New ForceEntry" hidden="false">
       <constraints>
@@ -21,23 +36,101 @@
     <selectionEntry id="4fb1-5838-7a97-341c" name="Small Beasts" hidden="false" collective="false" import="true" type="unit">
       <selectionEntries>
         <selectionEntry id="c8e4-d1d6-e009-731a" name="Bat" hidden="false" collective="false" import="true" type="model">
+          <profiles>
+            <profile id="a8ad-8233-79b3-b927" name="Bat" hidden="false" typeId="332f-73cc-aa13-ade3" typeName="Characteristics">
+              <characteristics>
+                <characteristic name="M" typeId="46c7-571b-166a-542f">d4</characteristic>
+                <characteristic name="S" typeId="0bd8-816b-f617-2734">d6</characteristic>
+                <characteristic name="B" typeId="7110-3354-3344-e2d8">d4</characteristic>
+                <characteristic name="R" typeId="f4b4-5214-115b-a64a">d4</characteristic>
+                <characteristic name="N" typeId="c7fa-1176-035f-d293">d6</characteristic>
+                <characteristic name="C" typeId="ceca-f7c6-50b8-8d59">d6</characteristic>
+                <characteristic name="A" typeId="f7b6-e9d2-033c-b3ac">d6</characteristic>
+                <characteristic name="F" typeId="01e7-7ea3-776a-ae40">d6</characteristic>
+                <characteristic name="P" typeId="5554-f553-b882-9b11">d6</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoGroups>
+            <infoGroup id="4e9f-7d99-e8e5-e893" name="Skills" hidden="false">
+              <infoLinks>
+                <infoLink id="fac2-c953-1e6f-863e" name="Flight" hidden="false" targetId="954b-e85a-378d-d422" type="rule"/>
+                <infoLink id="f587-eaa0-9ec6-d96f" name="Unarmed Fighter" hidden="false" targetId="d51d-fc7e-c4f5-aef0" type="rule"/>
+                <infoLink id="6bca-2bac-13b7-4673" name="Delicate (-2)" hidden="false" targetId="7e04-3937-5919-85f8" type="rule"/>
+                <infoLink id="9ac3-03af-ad79-82ad" name="Gifted" hidden="false" targetId="686e-ce03-fb9c-7fca" type="rule"/>
+                <infoLink id="0f73-c8be-62d6-12a1" name="Natural Hunter" hidden="false" targetId="4ce5-5a55-6614-f8d6" type="rule"/>
+              </infoLinks>
+            </infoGroup>
+          </infoGroups>
           <costs>
-            <cost name="Pennies" typeId="ff86-214c-8f20-99e9" value="0.0"/>
+            <cost name="Pennies" typeId="ff86-214c-8f20-99e9" value="27.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="75e8-a6c9-29a6-5d48" name="Shrew" hidden="false" collective="false" import="true" type="model">
+          <profiles>
+            <profile id="024a-60f0-493c-c999" name="Shrew" hidden="false" typeId="332f-73cc-aa13-ade3" typeName="Characteristics">
+              <characteristics>
+                <characteristic name="M" typeId="46c7-571b-166a-542f">d6</characteristic>
+                <characteristic name="S" typeId="0bd8-816b-f617-2734">d6</characteristic>
+                <characteristic name="B" typeId="7110-3354-3344-e2d8">d6</characteristic>
+                <characteristic name="R" typeId="f4b4-5214-115b-a64a">d6</characteristic>
+                <characteristic name="N" typeId="c7fa-1176-035f-d293">d6</characteristic>
+                <characteristic name="C" typeId="ceca-f7c6-50b8-8d59">d6</characteristic>
+                <characteristic name="A" typeId="f7b6-e9d2-033c-b3ac">d6</characteristic>
+                <characteristic name="F" typeId="01e7-7ea3-776a-ae40">d8</characteristic>
+                <characteristic name="P" typeId="5554-f553-b882-9b11">d6</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
           <costs>
-            <cost name="Pennies" typeId="ff86-214c-8f20-99e9" value="0.0"/>
+            <cost name="Pennies" typeId="ff86-214c-8f20-99e9" value="28.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="0b44-a40c-05fb-488a" name="Mouse" hidden="false" collective="false" import="true" type="model">
+          <profiles>
+            <profile id="f6a5-a7ef-99e3-3648" name="Mouse" hidden="false" typeId="332f-73cc-aa13-ade3" typeName="Characteristics">
+              <characteristics>
+                <characteristic name="M" typeId="46c7-571b-166a-542f">d6</characteristic>
+                <characteristic name="S" typeId="0bd8-816b-f617-2734">d6</characteristic>
+                <characteristic name="B" typeId="7110-3354-3344-e2d8">d4</characteristic>
+                <characteristic name="R" typeId="f4b4-5214-115b-a64a">d6</characteristic>
+                <characteristic name="N" typeId="c7fa-1176-035f-d293">d6</characteristic>
+                <characteristic name="C" typeId="ceca-f7c6-50b8-8d59">d6</characteristic>
+                <characteristic name="A" typeId="f7b6-e9d2-033c-b3ac">d6</characteristic>
+                <characteristic name="F" typeId="01e7-7ea3-776a-ae40">d6</characteristic>
+                <characteristic name="P" typeId="5554-f553-b882-9b11">d6</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
           <costs>
-            <cost name="Pennies" typeId="ff86-214c-8f20-99e9" value="0.0"/>
+            <cost name="Pennies" typeId="ff86-214c-8f20-99e9" value="24.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="33af-0374-857c-6cee" name="Bird (small)" hidden="false" collective="false" import="true" type="model">
+          <profiles>
+            <profile id="5ace-e327-bccc-4ab5" name="Bird (small)" hidden="false" typeId="332f-73cc-aa13-ade3" typeName="Characteristics">
+              <characteristics>
+                <characteristic name="M" typeId="46c7-571b-166a-542f">d6</characteristic>
+                <characteristic name="S" typeId="0bd8-816b-f617-2734">d6</characteristic>
+                <characteristic name="B" typeId="7110-3354-3344-e2d8">d6</characteristic>
+                <characteristic name="R" typeId="f4b4-5214-115b-a64a">d6</characteristic>
+                <characteristic name="N" typeId="c7fa-1176-035f-d293">d6</characteristic>
+                <characteristic name="C" typeId="ceca-f7c6-50b8-8d59">d6</characteristic>
+                <characteristic name="A" typeId="f7b6-e9d2-033c-b3ac">d6</characteristic>
+                <characteristic name="F" typeId="01e7-7ea3-776a-ae40">d4</characteristic>
+                <characteristic name="P" typeId="5554-f553-b882-9b11">d4</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoGroups>
+            <infoGroup id="892c-4675-3167-1e93" name="Skills" hidden="false">
+              <infoLinks>
+                <infoLink id="4ad0-7b5d-ad00-4769" name="Flight" hidden="false" targetId="954b-e85a-378d-d422" type="rule"/>
+              </infoLinks>
+            </infoGroup>
+          </infoGroups>
           <costs>
-            <cost name="Pennies" typeId="ff86-214c-8f20-99e9" value="0.0"/>
+            <cost name="Pennies" typeId="ff86-214c-8f20-99e9" value="26.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -48,8 +141,86 @@
     <selectionEntry id="4f6a-29ab-ae03-37ca" name="Medium Beasts" hidden="false" collective="false" import="true" type="unit">
       <selectionEntries>
         <selectionEntry id="87af-ca5a-ab53-9ceb" name="Hedgehog" hidden="false" collective="false" import="true" type="model">
+          <profiles>
+            <profile id="3f35-7a25-16f4-0fc7" name="Hedgehog" hidden="false" typeId="332f-73cc-aa13-ade3" typeName="Characteristics">
+              <characteristics>
+                <characteristic name="M" typeId="46c7-571b-166a-542f">d6</characteristic>
+                <characteristic name="S" typeId="0bd8-816b-f617-2734">d6</characteristic>
+                <characteristic name="B" typeId="7110-3354-3344-e2d8">d6</characteristic>
+                <characteristic name="R" typeId="f4b4-5214-115b-a64a">d6</characteristic>
+                <characteristic name="N" typeId="c7fa-1176-035f-d293">d6</characteristic>
+                <characteristic name="C" typeId="ceca-f7c6-50b8-8d59">d6</characteristic>
+                <characteristic name="A" typeId="f7b6-e9d2-033c-b3ac">d6</characteristic>
+                <characteristic name="F" typeId="01e7-7ea3-776a-ae40">d6</characteristic>
+                <characteristic name="P" typeId="5554-f553-b882-9b11">d8</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoGroups>
+            <infoGroup id="9cf1-6bfe-dde9-7c52" name="New InfoGroup" hidden="false">
+              <infoLinks>
+                <infoLink id="ca5b-6349-1794-811f" name="Spines" hidden="false" targetId="e3b0-dbe7-6acd-739b" type="rule"/>
+              </infoLinks>
+            </infoGroup>
+          </infoGroups>
           <costs>
-            <cost name="Pennies" typeId="ff86-214c-8f20-99e9" value="0.0"/>
+            <cost name="Pennies" typeId="ff86-214c-8f20-99e9" value="29.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="0cb0-8067-bc05-3cf7" name="Weasel/Stoat" hidden="false" collective="false" import="true" type="model">
+          <profiles>
+            <profile id="d0a2-54cf-9465-529d" name="Weasel/Stoat" hidden="false" typeId="332f-73cc-aa13-ade3" typeName="Characteristics">
+              <characteristics>
+                <characteristic name="M" typeId="46c7-571b-166a-542f">d8</characteristic>
+                <characteristic name="S" typeId="0bd8-816b-f617-2734">d8</characteristic>
+                <characteristic name="B" typeId="7110-3354-3344-e2d8">d6</characteristic>
+                <characteristic name="R" typeId="f4b4-5214-115b-a64a">d6</characteristic>
+                <characteristic name="N" typeId="c7fa-1176-035f-d293">d8</characteristic>
+                <characteristic name="C" typeId="ceca-f7c6-50b8-8d59">d6</characteristic>
+                <characteristic name="A" typeId="f7b6-e9d2-033c-b3ac">d6</characteristic>
+                <characteristic name="F" typeId="01e7-7ea3-776a-ae40">d6</characteristic>
+                <characteristic name="P" typeId="5554-f553-b882-9b11">d6</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoGroups>
+            <infoGroup id="6ac8-56e4-c830-8de0" name="Skills" hidden="false">
+              <infoLinks>
+                <infoLink id="2d46-e879-5100-cbd1" name="Fearless" hidden="false" targetId="f95a-2ce2-2889-1f6a" type="rule"/>
+              </infoLinks>
+            </infoGroup>
+          </infoGroups>
+          <costs>
+            <cost name="Pennies" typeId="ff86-214c-8f20-99e9" value="36.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="8de5-c115-551b-345a" name="Adder" hidden="false" collective="false" import="true" type="model">
+          <profiles>
+            <profile id="8cdf-ca6f-837c-5617" name="Adder" hidden="false" typeId="332f-73cc-aa13-ade3" typeName="Characteristics">
+              <characteristics>
+                <characteristic name="M" typeId="46c7-571b-166a-542f">d6</characteristic>
+                <characteristic name="S" typeId="0bd8-816b-f617-2734">d8</characteristic>
+                <characteristic name="B" typeId="7110-3354-3344-e2d8">d4</characteristic>
+                <characteristic name="R" typeId="f4b4-5214-115b-a64a">d4</characteristic>
+                <characteristic name="N" typeId="c7fa-1176-035f-d293">d4</characteristic>
+                <characteristic name="C" typeId="ceca-f7c6-50b8-8d59">d8</characteristic>
+                <characteristic name="A" typeId="f7b6-e9d2-033c-b3ac">d8</characteristic>
+                <characteristic name="F" typeId="01e7-7ea3-776a-ae40">d8</characteristic>
+                <characteristic name="P" typeId="5554-f553-b882-9b11">d8</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoGroups>
+            <infoGroup id="3dd0-4960-53b5-7ab6" name="Skills" hidden="false">
+              <infoLinks>
+                <infoLink id="243c-5d19-ccd3-894c" name="Poison (Pain)" hidden="false" targetId="5660-c7c9-f2c2-61e5" type="rule"/>
+                <infoLink id="c9f1-5b55-00dd-30a8" name="Unarmed Fighter" hidden="false" targetId="d51d-fc7e-c4f5-aef0" type="rule"/>
+                <infoLink id="798a-9715-52a0-7c84" name="Cannot Use Any Weapons" hidden="false" targetId="47ac-051f-d923-2d2a" type="rule"/>
+              </infoLinks>
+            </infoGroup>
+          </infoGroups>
+          <costs>
+            <cost name="Pennies" typeId="ff86-214c-8f20-99e9" value="36.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -63,8 +234,92 @@
       </constraints>
       <selectionEntries>
         <selectionEntry id="eb52-e92d-0191-f50c" name="Hare" hidden="false" collective="false" import="true" type="model">
+          <profiles>
+            <profile id="9708-5a4f-ef59-4cec" name="Hare" hidden="false" typeId="332f-73cc-aa13-ade3" typeName="Characteristics">
+              <characteristics>
+                <characteristic name="M" typeId="46c7-571b-166a-542f">d8</characteristic>
+                <characteristic name="S" typeId="0bd8-816b-f617-2734">d10</characteristic>
+                <characteristic name="B" typeId="7110-3354-3344-e2d8">d8</characteristic>
+                <characteristic name="R" typeId="f4b4-5214-115b-a64a">d6</characteristic>
+                <characteristic name="N" typeId="c7fa-1176-035f-d293">d6</characteristic>
+                <characteristic name="C" typeId="ceca-f7c6-50b8-8d59">d6</characteristic>
+                <characteristic name="A" typeId="f7b6-e9d2-033c-b3ac">d6</characteristic>
+                <characteristic name="F" typeId="01e7-7ea3-776a-ae40">d8</characteristic>
+                <characteristic name="P" typeId="5554-f553-b882-9b11">d8</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoGroups>
+            <infoGroup id="24ff-548e-d745-102c" name="Skills" hidden="false">
+              <infoLinks>
+                <infoLink id="6e92-cd0b-8a47-5c87" name="Leap" hidden="false" targetId="a280-f831-f947-8c95" type="rule"/>
+                <infoLink id="b7a1-4f83-beca-9ce9" name="Strong (1)" hidden="false" targetId="dca5-4f9e-0fa7-6d02" type="rule"/>
+              </infoLinks>
+            </infoGroup>
+          </infoGroups>
           <costs>
-            <cost name="Pennies" typeId="ff86-214c-8f20-99e9" value="0.0"/>
+            <cost name="Pennies" typeId="ff86-214c-8f20-99e9" value="53.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="097d-cbb8-64d5-e095" name="Wildcat" hidden="false" collective="false" import="true" type="model">
+          <profiles>
+            <profile id="5790-eebc-ee58-9844" name="Wildcat" hidden="false" typeId="332f-73cc-aa13-ade3" typeName="Characteristics">
+              <characteristics>
+                <characteristic name="M" typeId="46c7-571b-166a-542f">d8</characteristic>
+                <characteristic name="S" typeId="0bd8-816b-f617-2734">d10</characteristic>
+                <characteristic name="B" typeId="7110-3354-3344-e2d8">d6</characteristic>
+                <characteristic name="R" typeId="f4b4-5214-115b-a64a">d4</characteristic>
+                <characteristic name="N" typeId="c7fa-1176-035f-d293">d8</characteristic>
+                <characteristic name="C" typeId="ceca-f7c6-50b8-8d59">d8</characteristic>
+                <characteristic name="A" typeId="f7b6-e9d2-033c-b3ac">d8</characteristic>
+                <characteristic name="F" typeId="01e7-7ea3-776a-ae40">d8</characteristic>
+                <characteristic name="P" typeId="5554-f553-b882-9b11">d8</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoGroups>
+            <infoGroup id="1680-c2c9-0f30-dac6" name="Skills" hidden="false">
+              <infoLinks>
+                <infoLink id="11f2-cc42-10aa-def4" name="Strong (1)" hidden="false" targetId="dca5-4f9e-0fa7-6d02" type="rule">
+                  <modifiers>
+                    <modifier type="set" field="name" value="Strong (2)"/>
+                  </modifiers>
+                </infoLink>
+                <infoLink id="0e8c-4651-c107-3ba5" name="Tough (1)" hidden="false" targetId="ff3b-3e39-8ce7-3482" type="rule"/>
+                <infoLink id="d8ae-3b8d-b5eb-2191" name="Fearsome" hidden="false" targetId="704f-6895-7b06-ae81" type="rule"/>
+                <infoLink id="a0c0-5af0-eac1-d7bb" name="Natural Hunter" hidden="false" targetId="4ce5-5a55-6614-f8d6" type="rule"/>
+              </infoLinks>
+            </infoGroup>
+          </infoGroups>
+          <costs>
+            <cost name="Pennies" typeId="ff86-214c-8f20-99e9" value="62.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="10cf-8e7c-1f3b-efa5" name="Fox" hidden="false" collective="false" import="true" type="model">
+          <profiles>
+            <profile id="bfd5-0b68-0ff4-132f" name="Fox" hidden="false" typeId="332f-73cc-aa13-ade3" typeName="Characteristics">
+              <characteristics>
+                <characteristic name="M" typeId="46c7-571b-166a-542f">d8</characteristic>
+                <characteristic name="S" typeId="0bd8-816b-f617-2734">d8</characteristic>
+                <characteristic name="B" typeId="7110-3354-3344-e2d8">d6</characteristic>
+                <characteristic name="R" typeId="f4b4-5214-115b-a64a">d8</characteristic>
+                <characteristic name="N" typeId="c7fa-1176-035f-d293">d6</characteristic>
+                <characteristic name="C" typeId="ceca-f7c6-50b8-8d59">d6</characteristic>
+                <characteristic name="A" typeId="f7b6-e9d2-033c-b3ac">d6</characteristic>
+                <characteristic name="F" typeId="01e7-7ea3-776a-ae40">d6</characteristic>
+                <characteristic name="P" typeId="5554-f553-b882-9b11">d8</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoGroups>
+            <infoGroup id="033c-037b-5072-f5dc" name="Skills" hidden="false">
+              <infoLinks>
+                <infoLink id="a40c-2b5e-97e6-099c" name="Strong (1)" hidden="false" targetId="dca5-4f9e-0fa7-6d02" type="rule"/>
+              </infoLinks>
+            </infoGroup>
+          </infoGroups>
+          <costs>
+            <cost name="Pennies" typeId="ff86-214c-8f20-99e9" value="43.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -77,19 +332,186 @@
         <constraint field="selections" scope="primary-category" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ed6b-aee1-9156-0871" type="max"/>
       </constraints>
       <selectionEntries>
-        <selectionEntry id="2b97-b407-90be-3fd1" name="Badger" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="2b97-b407-90be-3fd1" name="Badger" hidden="false" collective="false" import="true" type="model">
+          <profiles>
+            <profile id="1ef5-f134-9556-ffdb" name="Badger" hidden="false" typeId="332f-73cc-aa13-ade3" typeName="Characteristics">
+              <characteristics>
+                <characteristic name="M" typeId="46c7-571b-166a-542f">d8</characteristic>
+                <characteristic name="S" typeId="0bd8-816b-f617-2734">d8</characteristic>
+                <characteristic name="B" typeId="7110-3354-3344-e2d8">d6</characteristic>
+                <characteristic name="R" typeId="f4b4-5214-115b-a64a">d6</characteristic>
+                <characteristic name="N" typeId="c7fa-1176-035f-d293">d6</characteristic>
+                <characteristic name="C" typeId="ceca-f7c6-50b8-8d59">d4</characteristic>
+                <characteristic name="A" typeId="f7b6-e9d2-033c-b3ac">d6</characteristic>
+                <characteristic name="F" typeId="01e7-7ea3-776a-ae40">d8</characteristic>
+                <characteristic name="P" typeId="5554-f553-b882-9b11">d10</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoGroups>
+            <infoGroup id="3411-67fe-4ce5-655e" name="Skills" hidden="false">
+              <infoLinks>
+                <infoLink id="74b5-a6fa-288e-ecef" name="Strong (1)" hidden="false" targetId="dca5-4f9e-0fa7-6d02" type="rule">
+                  <modifiers>
+                    <modifier type="set" field="name" value="Strong (3)"/>
+                  </modifiers>
+                </infoLink>
+                <infoLink id="744e-461e-35b2-e02a" name="Tough (1)" hidden="false" targetId="ff3b-3e39-8ce7-3482" type="rule">
+                  <modifiers>
+                    <modifier type="set" field="name" value="Tough (2)"/>
+                  </modifiers>
+                </infoLink>
+                <infoLink id="0819-3bdd-9663-9e37" name="Fearsome" hidden="false" targetId="704f-6895-7b06-ae81" type="rule"/>
+              </infoLinks>
+            </infoGroup>
+          </infoGroups>
           <costs>
-            <cost name="Pennies" typeId="ff86-214c-8f20-99e9" value="0.0"/>
+            <cost name="Pennies" typeId="ff86-214c-8f20-99e9" value="65.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="6574-47c8-179f-20ce" name="Beaver" hidden="false" collective="false" import="true" type="model">
+          <profiles>
+            <profile id="1632-3a7c-219d-a63a" name="Beaver" hidden="false" typeId="332f-73cc-aa13-ade3" typeName="Characteristics">
+              <characteristics>
+                <characteristic name="M" typeId="46c7-571b-166a-542f">d6</characteristic>
+                <characteristic name="S" typeId="0bd8-816b-f617-2734">d8</characteristic>
+                <characteristic name="B" typeId="7110-3354-3344-e2d8">d6</characteristic>
+                <characteristic name="R" typeId="f4b4-5214-115b-a64a">d6</characteristic>
+                <characteristic name="N" typeId="c7fa-1176-035f-d293">d4</characteristic>
+                <characteristic name="C" typeId="ceca-f7c6-50b8-8d59">d4</characteristic>
+                <characteristic name="A" typeId="f7b6-e9d2-033c-b3ac">d6</characteristic>
+                <characteristic name="F" typeId="01e7-7ea3-776a-ae40">d10</characteristic>
+                <characteristic name="P" typeId="5554-f553-b882-9b11">d8</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoGroups>
+            <infoGroup id="2207-ba4b-7a54-9d40" name="Skills" hidden="false">
+              <infoLinks>
+                <infoLink id="5501-917c-9ad9-7892" name="Strong (1)" hidden="false" targetId="dca5-4f9e-0fa7-6d02" type="rule">
+                  <modifiers>
+                    <modifier type="set" field="name" value="Strong (2)"/>
+                  </modifiers>
+                </infoLink>
+                <infoLink id="be09-29f7-3338-4967" name="Tough (1)" hidden="false" targetId="ff3b-3e39-8ce7-3482" type="rule">
+                  <modifiers>
+                    <modifier type="set" field="name" value="Tough (3)"/>
+                  </modifiers>
+                </infoLink>
+                <infoLink id="95f4-1f6d-f5bf-6159" name="Swim" hidden="false" targetId="7846-f6c9-df4a-cef6" type="rule"/>
+              </infoLinks>
+            </infoGroup>
+          </infoGroups>
+          <costs>
+            <cost name="Pennies" typeId="ff86-214c-8f20-99e9" value="60.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="664a-62da-d666-e402" name="Bird (Massive)" hidden="false" collective="false" import="true" type="model">
+          <profiles>
+            <profile id="6822-892a-9776-0833" name="Bird (Massive)" hidden="false" typeId="332f-73cc-aa13-ade3" typeName="Characteristics">
+              <characteristics>
+                <characteristic name="M" typeId="46c7-571b-166a-542f">d6</characteristic>
+                <characteristic name="S" typeId="0bd8-816b-f617-2734">d8</characteristic>
+                <characteristic name="B" typeId="7110-3354-3344-e2d8">d6</characteristic>
+                <characteristic name="R" typeId="f4b4-5214-115b-a64a">d6</characteristic>
+                <characteristic name="N" typeId="c7fa-1176-035f-d293">d6</characteristic>
+                <characteristic name="C" typeId="ceca-f7c6-50b8-8d59">d4</characteristic>
+                <characteristic name="A" typeId="f7b6-e9d2-033c-b3ac">d6</characteristic>
+                <characteristic name="F" typeId="01e7-7ea3-776a-ae40">d8</characteristic>
+                <characteristic name="P" typeId="5554-f553-b882-9b11">d8</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoGroups>
+            <infoGroup id="f4ad-e645-2ed1-8748" name="Skills" hidden="false">
+              <infoLinks>
+                <infoLink id="ca88-1bc3-a328-1e48" name="Flight" hidden="false" targetId="954b-e85a-378d-d422" type="rule"/>
+              </infoLinks>
+            </infoGroup>
+          </infoGroups>
+          <costs>
+            <cost name="Pennies" typeId="ff86-214c-8f20-99e9" value="40.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="097e-59ed-9c8f-ea36" name="Raptor (Massive)" hidden="false" collective="false" import="true" type="model">
+          <profiles>
+            <profile id="fc38-15e2-357d-ebd5" name="Raptor (Massive)" hidden="false" typeId="332f-73cc-aa13-ade3" typeName="Characteristics">
+              <characteristics>
+                <characteristic name="M" typeId="46c7-571b-166a-542f">d6</characteristic>
+                <characteristic name="S" typeId="0bd8-816b-f617-2734">d10</characteristic>
+                <characteristic name="B" typeId="7110-3354-3344-e2d8">d6</characteristic>
+                <characteristic name="R" typeId="f4b4-5214-115b-a64a">d4</characteristic>
+                <characteristic name="N" typeId="c7fa-1176-035f-d293">d6</characteristic>
+                <characteristic name="C" typeId="ceca-f7c6-50b8-8d59">d4</characteristic>
+                <characteristic name="A" typeId="f7b6-e9d2-033c-b3ac">d8</characteristic>
+                <characteristic name="F" typeId="01e7-7ea3-776a-ae40">d8</characteristic>
+                <characteristic name="P" typeId="5554-f553-b882-9b11">d10</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoGroups>
+            <infoGroup id="4924-181c-55d0-0cd2" name="Skills" hidden="false">
+              <infoLinks>
+                <infoLink id="0968-b8ef-7def-01d8" name="Flight" hidden="false" targetId="954b-e85a-378d-d422" type="rule"/>
+                <infoLink id="fad7-c989-c6ea-2d1c" name="Unarmed Fighter" hidden="false" targetId="d51d-fc7e-c4f5-aef0" type="rule"/>
+                <infoLink id="df10-2fb6-a5f5-5063" name="Natural Hunter" hidden="false" targetId="4ce5-5a55-6614-f8d6" type="rule"/>
+                <infoLink id="5bf3-ae2a-7ea6-dacf" name="Strong (1)" hidden="false" targetId="dca5-4f9e-0fa7-6d02" type="rule">
+                  <modifiers>
+                    <modifier type="set" field="name" value="Strong (3)"/>
+                  </modifiers>
+                </infoLink>
+              </infoLinks>
+            </infoGroup>
+          </infoGroups>
+          <costs>
+            <cost name="Pennies" typeId="ff86-214c-8f20-99e9" value="64.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="82a0-4014-5ae2-ef05" name="Hound (Massive)" hidden="false" collective="false" import="true" type="model">
+          <profiles>
+            <profile id="abfe-57a7-694b-d1c3" name="Hound (Massive)" hidden="false" typeId="332f-73cc-aa13-ade3" typeName="Characteristics">
+              <characteristics>
+                <characteristic name="M" typeId="46c7-571b-166a-542f">d8</characteristic>
+                <characteristic name="S" typeId="0bd8-816b-f617-2734">d10</characteristic>
+                <characteristic name="B" typeId="7110-3354-3344-e2d8">d6</characteristic>
+                <characteristic name="R" typeId="f4b4-5214-115b-a64a">d4</characteristic>
+                <characteristic name="N" typeId="c7fa-1176-035f-d293">d6</characteristic>
+                <characteristic name="C" typeId="ceca-f7c6-50b8-8d59">d6</characteristic>
+                <characteristic name="A" typeId="f7b6-e9d2-033c-b3ac">d6</characteristic>
+                <characteristic name="F" typeId="01e7-7ea3-776a-ae40">d8</characteristic>
+                <characteristic name="P" typeId="5554-f553-b882-9b11">d8</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoGroups>
+            <infoGroup id="ad4d-129b-a08e-adaf" name="Skills" hidden="false">
+              <infoLinks>
+                <infoLink id="72eb-d527-7a40-d769" name="Natural Hunter" hidden="false" targetId="4ce5-5a55-6614-f8d6" type="rule"/>
+                <infoLink id="f65a-a2fc-d7c0-b2e6" name="Strong (1)" hidden="false" targetId="dca5-4f9e-0fa7-6d02" type="rule">
+                  <modifiers>
+                    <modifier type="set" field="name" value="Strong (3)"/>
+                  </modifiers>
+                </infoLink>
+                <infoLink id="1d9e-6fcb-5bf3-acfb" name="Tough (1)" hidden="false" targetId="ff3b-3e39-8ce7-3482" type="rule">
+                  <modifiers>
+                    <modifier type="set" field="name" value="Tough (2)"/>
+                  </modifiers>
+                </infoLink>
+              </infoLinks>
+            </infoGroup>
+          </infoGroups>
+          <costs>
+            <cost name="Pennies" typeId="ff86-214c-8f20-99e9" value="65.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
-      <costs>
-        <cost name="Pennies" typeId="ff86-214c-8f20-99e9" value="0.0"/>
-      </costs>
     </selectionEntry>
     <selectionEntry id="287e-895f-0643-32f4" name="Den Choice" hidden="false" collective="false" import="true" type="upgrade">
       <selectionEntryGroups>
         <selectionEntryGroup id="bc78-62e9-884b-1d6c" name="Den" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="primary-category" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a8c6-6660-a55c-6c8e" type="max"/>
+          </constraints>
           <selectionEntries>
             <selectionEntry id="23bc-18ae-d5af-0c10" name="Abandoned Burrow" hidden="false" collective="false" import="true" type="upgrade">
               <costs>
@@ -266,4 +688,49 @@
       </selectionEntries>
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
+  <sharedRules>
+    <rule id="dca5-4f9e-0fa7-6d02" name="Strong (1)" hidden="false">
+      <comment></comment>
+      <description>Add the Skill level to the Result of any successful close combat or Shooting, with the exception of those made with Crossbows and black Powder Weapons.</description>
+    </rule>
+    <rule id="ff3b-3e39-8ce7-3482" name="Tough (1)" hidden="false">
+      <description>Reduce any Wounds they suffere by the Skill number.</description>
+    </rule>
+    <rule id="704f-6895-7b06-ae81" name="Fearsome" hidden="false">
+      <description>Whenever a character declares an Attack Action against a Fearsome creature, or is Attacked by one, they must first Roll-Off their Fortitude against the Fearsome warrior&apos;s Presence. If the Roll-Off is passed, they may Strike and Block as normal. If it is failed, they suffer a -3 penalty to Strike and Block Roll-Offs against that beast for the rest of the Turn. If a Fearsome beast attacks another Fearsome beast, neither needs to Roll-Off, just attack normally.</description>
+    </rule>
+    <rule id="7846-f6c9-df4a-cef6" name="Swim" hidden="false">
+      <comment></comment>
+      <description>This character doesn&apos;t treat water terrain pieces as Difficult terrain and may move through them at full speed.</description>
+    </rule>
+    <rule id="954b-e85a-378d-d422" name="Flight" hidden="false"/>
+    <rule id="d51d-fc7e-c4f5-aef0" name="Unarmed Fighter" hidden="false">
+      <description>This character suffers no penalties for fighting without a weapon.</description>
+    </rule>
+    <rule id="4ce5-5a55-6614-f8d6" name="Natural Hunter" hidden="false">
+      <description>When making Ranged Roll-Offs this character does not benefit from the Perfect Rolls rule.</description>
+    </rule>
+    <rule id="a280-f831-f947-8c95" name="Leap" hidden="false">
+      <description>This character treats Difficult vertical terrain as if it were Normal and moves accordingly. They may re-roll their Nimbleness dice when jumping.</description>
+    </rule>
+    <rule id="d150-4caf-402a-2c28" name="Bloodhound" hidden="false">
+      <description>The character may re-roll the dice during any Awareness Roll-Offs while Searching for Hidden enemies or spotting Ambushing enemies.</description>
+    </rule>
+    <rule id="5660-c7c9-f2c2-61e5" name="Poison (Pain)" hidden="false">
+      <description>If a weapon coated with Paiun Poison causes any Wounds, the wounded character suffers a -2 penalty to all Roll-Offs and movement. This is cumulative, so any additional Wounds caused by Pain Poinsoned Weapons will add further -2 penalties.</description>
+    </rule>
+    <rule id="47ac-051f-d923-2d2a" name="Cannot Use Any Weapons" hidden="false"/>
+    <rule id="f331-3a3d-291b-c016" name="Short Sighted" hidden="false">
+      <description>This character must halve the Range of all Missle Weapons and Spells.</description>
+    </rule>
+    <rule id="5334-3f42-4307-664b" name="Tunneller" hidden="false"/>
+    <rule id="7e04-3937-5919-85f8" name="Delicate (-2)" hidden="false">
+      <description>This character has a weak constituation and is vulnerable to damage; they must add the Skill level to any Wounds they suffer.</description>
+    </rule>
+    <rule id="686e-ce03-fb9c-7fca" name="Gifted" hidden="false"/>
+    <rule id="f95a-2ce2-2889-1f6a" name="Fearless" hidden="false">
+      <description>The character ignores Fearsome enemies and may fight them without penalty</description>
+    </rule>
+    <rule id="e3b0-dbe7-6acd-739b" name="Spines" hidden="false"/>
+  </sharedRules>
 </catalogue>
