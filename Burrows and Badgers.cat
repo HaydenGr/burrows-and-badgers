@@ -146,7 +146,7 @@
   <sharedSelectionEntries>
     <selectionEntry id="4fb1-5838-7a97-341c" name="Small Beasts" hidden="false" collective="false" import="true" type="unit">
       <selectionEntries>
-        <selectionEntry id="c8e4-d1d6-e009-731a" name="Bat" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="c8e4-d1d6-e009-731a" name="Bat" hidden="false" collective="false" import="true" type="unit">
           <profiles>
             <profile id="a8ad-8233-79b3-b927" name="Bat" hidden="false" typeId="332f-73cc-aa13-ade3" typeName="Characteristics">
               <characteristics>
@@ -177,7 +177,7 @@
             <cost name="Pennies" typeId="ff86-214c-8f20-99e9" value="27.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="75e8-a6c9-29a6-5d48" name="Shrew" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="75e8-a6c9-29a6-5d48" name="Shrew" hidden="false" collective="false" import="true" type="unit">
           <profiles>
             <profile id="024a-60f0-493c-c999" name="Shrew" hidden="false" typeId="332f-73cc-aa13-ade3" typeName="Characteristics">
               <characteristics>
@@ -197,7 +197,7 @@
             <cost name="Pennies" typeId="ff86-214c-8f20-99e9" value="28.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="0b44-a40c-05fb-488a" name="Mouse" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="0b44-a40c-05fb-488a" name="Mouse" hidden="false" collective="false" import="true" type="unit">
           <profiles>
             <profile id="f6a5-a7ef-99e3-3648" name="Mouse" hidden="false" typeId="332f-73cc-aa13-ade3" typeName="Characteristics">
               <characteristics>
@@ -217,7 +217,7 @@
             <cost name="Pennies" typeId="ff86-214c-8f20-99e9" value="24.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="33af-0374-857c-6cee" name="Bird (small)" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="33af-0374-857c-6cee" name="Bird (small)" hidden="false" collective="false" import="true" type="unit">
           <profiles>
             <profile id="5ace-e327-bccc-4ab5" name="Bird (small)" hidden="false" typeId="332f-73cc-aa13-ade3" typeName="Characteristics">
               <characteristics>
@@ -251,7 +251,7 @@
     </selectionEntry>
     <selectionEntry id="4f6a-29ab-ae03-37ca" name="Medium Beasts" hidden="false" collective="false" import="true" type="unit">
       <selectionEntries>
-        <selectionEntry id="87af-ca5a-ab53-9ceb" name="Hedgehog" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="87af-ca5a-ab53-9ceb" name="Hedgehog" hidden="false" collective="false" import="true" type="unit">
           <profiles>
             <profile id="3f35-7a25-16f4-0fc7" name="Hedgehog" hidden="false" typeId="332f-73cc-aa13-ade3" typeName="Characteristics">
               <characteristics>
@@ -278,7 +278,7 @@
             <cost name="Pennies" typeId="ff86-214c-8f20-99e9" value="29.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="0cb0-8067-bc05-3cf7" name="Weasel/Stoat" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="0cb0-8067-bc05-3cf7" name="Weasel/Stoat" hidden="false" collective="false" import="true" type="unit">
           <profiles>
             <profile id="d0a2-54cf-9465-529d" name="Weasel/Stoat" hidden="false" typeId="332f-73cc-aa13-ade3" typeName="Characteristics">
               <characteristics>
@@ -305,7 +305,7 @@
             <cost name="Pennies" typeId="ff86-214c-8f20-99e9" value="36.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="8de5-c115-551b-345a" name="Adder" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="8de5-c115-551b-345a" name="Adder" hidden="false" collective="false" import="true" type="unit">
           <profiles>
             <profile id="8cdf-ca6f-837c-5617" name="Adder" hidden="false" typeId="332f-73cc-aa13-ade3" typeName="Characteristics">
               <characteristics>
@@ -344,7 +344,7 @@
         <constraint field="selections" scope="primary-category" value="6.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eb3d-cf1a-5cb5-d6a5" type="max"/>
       </constraints>
       <selectionEntries>
-        <selectionEntry id="eb52-e92d-0191-f50c" name="Hare" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="eb52-e92d-0191-f50c" name="Hare" hidden="false" collective="false" import="true" type="unit">
           <profiles>
             <profile id="9708-5a4f-ef59-4cec" name="Hare" hidden="false" typeId="332f-73cc-aa13-ade3" typeName="Characteristics">
               <characteristics>
@@ -372,7 +372,7 @@
             <cost name="Pennies" typeId="ff86-214c-8f20-99e9" value="53.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="097d-cbb8-64d5-e095" name="Wildcat" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="097d-cbb8-64d5-e095" name="Wildcat" hidden="false" collective="false" import="true" type="unit">
           <profiles>
             <profile id="5790-eebc-ee58-9844" name="Wildcat" hidden="false" typeId="332f-73cc-aa13-ade3" typeName="Characteristics">
               <characteristics>
@@ -385,66 +385,6 @@
                 <characteristic name="A" typeId="f7b6-e9d2-033c-b3ac">d8</characteristic>
                 <characteristic name="F" typeId="01e7-7ea3-776a-ae40">d8</characteristic>
                 <characteristic name="P" typeId="5554-f553-b882-9b11">d8</characteristic>
-              </characteristics>
-            </profile>
-            <profile id="979c-637b-cc41-3347" name="Wildcat Wounds" hidden="false" typeId="5479-2adf-d397-00a2" typeName="Wounds">
-              <characteristics>
-                <characteristic name="1" typeId="1a50-5c78-9248-d8c9"/>
-                <characteristic name="2" typeId="bcb4-6948-cd99-18da"/>
-                <characteristic name="3" typeId="85e3-3045-d160-9964"/>
-                <characteristic name="(4)" typeId="ea05-6808-4f1d-4604"/>
-                <characteristic name="5" typeId="0ac1-765c-a764-04c5"/>
-                <characteristic name="6" typeId="a1cc-b977-f0d4-0e02"/>
-                <characteristic name="7" typeId="d443-848f-9596-052e"/>
-                <characteristic name="(8)" typeId="1ecd-4733-fb20-40b3"/>
-                <characteristic name="9" typeId="21b2-f822-d893-4269"/>
-                <characteristic name="10" typeId="1ab2-2654-cd6d-a163"/>
-                <characteristic name="11" typeId="e89f-c51b-d007-eb67"/>
-                <characteristic name="(12)" typeId="7899-676d-f857-0dff"/>
-                <characteristic name="13" typeId="f6ff-b268-8375-079a"/>
-                <characteristic name="14" typeId="6474-2495-25e7-3e9f"/>
-                <characteristic name="(15)" typeId="aa64-3641-89f4-50aa"/>
-                <characteristic name="(16)" typeId="b828-63e6-4a7b-4614"/>
-              </characteristics>
-            </profile>
-            <profile id="d56d-291b-d6d1-42c1" name="Wildcat Experience" hidden="false" typeId="e2f3-fe53-ae0d-4782" typeName="Experience">
-              <characteristics>
-                <characteristic name="1" typeId="dcad-0122-a018-9280"/>
-                <characteristic name="2" typeId="51ed-8f7d-e22a-f1b5"/>
-                <characteristic name="(3)" typeId="2aa3-b572-9d3b-4b4f"/>
-                <characteristic name="4" typeId="a4e3-513c-7d32-6eb0"/>
-                <characteristic name="5" typeId="0320-8074-6f63-8ff0"/>
-                <characteristic name="6" typeId="57f1-0915-424d-5e5f"/>
-                <characteristic name="(7)" typeId="76a0-2a03-80f3-492f"/>
-                <characteristic name="8" typeId="2a9e-428d-69f1-e514"/>
-                <characteristic name="9" typeId="5567-5074-3922-f521"/>
-                <characteristic name="10" typeId="4c36-6083-bd9b-f2ea"/>
-                <characteristic name="(11)" typeId="f1ba-7b31-7410-13ea"/>
-                <characteristic name="12" typeId="55b4-1cfa-daee-56ed"/>
-                <characteristic name="13" typeId="b1b5-f5e6-2845-a1d7"/>
-                <characteristic name="14" typeId="10a6-0ca8-de18-10c0"/>
-                <characteristic name="15" typeId="cbb9-ccbe-4e24-59a5"/>
-                <characteristic name="(16)" typeId="db8d-53e5-06a8-4591"/>
-                <characteristic name="17" typeId="2da7-1e4c-6520-4fd0"/>
-                <characteristic name="18" typeId="35ae-1ab7-653e-378b"/>
-                <characteristic name="19" typeId="9c5a-1c26-e1b4-d657"/>
-                <characteristic name="20" typeId="9d55-761e-43c4-a11c"/>
-                <characteristic name="(21)" typeId="8e35-7f59-6676-7e56"/>
-                <characteristic name="22" typeId="74f6-6cf2-c512-dfb9"/>
-                <characteristic name="23" typeId="209b-ea2a-e9bc-7b48"/>
-                <characteristic name="24" typeId="14bf-76d4-2c38-6c03"/>
-                <characteristic name="(25)" typeId="cdab-acdd-d0b3-a1f3"/>
-                <characteristic name="26" typeId="876e-5421-56b7-3762"/>
-                <characteristic name="27" typeId="34a5-a766-97df-bb36"/>
-                <characteristic name="28" typeId="b298-65d5-387d-a98c"/>
-                <characteristic name="29" typeId="5cbd-8e41-d858-e949"/>
-                <characteristic name="(30)" typeId="d3a7-bcd3-936d-228d"/>
-                <characteristic name="31" typeId="574c-ace7-5850-6c23"/>
-                <characteristic name="32" typeId="4c33-f00c-b7a8-182b"/>
-                <characteristic name="33" typeId="0baa-5c7d-5c9e-280f"/>
-                <characteristic name="34" typeId="b18e-695f-d50d-1fe2"/>
-                <characteristic name="35" typeId="4418-c9ca-a06f-efbc"/>
-                <characteristic name="(36)" typeId="f4a1-4149-497e-78bb"/>
               </characteristics>
             </profile>
           </profiles>
@@ -466,7 +406,7 @@
             <cost name="Pennies" typeId="ff86-214c-8f20-99e9" value="62.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="10cf-8e7c-1f3b-efa5" name="Fox" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="10cf-8e7c-1f3b-efa5" name="Fox" hidden="false" collective="false" import="true" type="unit">
           <profiles>
             <profile id="bfd5-0b68-0ff4-132f" name="Fox" hidden="false" typeId="332f-73cc-aa13-ade3" typeName="Characteristics">
               <characteristics>
@@ -503,7 +443,7 @@
         <constraint field="selections" scope="primary-category" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ed6b-aee1-9156-0871" type="max"/>
       </constraints>
       <selectionEntries>
-        <selectionEntry id="2b97-b407-90be-3fd1" name="Badger" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="2b97-b407-90be-3fd1" name="Badger" hidden="false" collective="false" import="true" type="unit">
           <profiles>
             <profile id="1ef5-f134-9556-ffdb" name="Badger" hidden="false" typeId="332f-73cc-aa13-ade3" typeName="Characteristics">
               <characteristics>
@@ -540,7 +480,7 @@
             <cost name="Pennies" typeId="ff86-214c-8f20-99e9" value="65.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="6574-47c8-179f-20ce" name="Beaver" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="6574-47c8-179f-20ce" name="Beaver" hidden="false" collective="false" import="true" type="unit">
           <profiles>
             <profile id="1632-3a7c-219d-a63a" name="Beaver" hidden="false" typeId="332f-73cc-aa13-ade3" typeName="Characteristics">
               <characteristics>
@@ -577,7 +517,7 @@
             <cost name="Pennies" typeId="ff86-214c-8f20-99e9" value="60.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="664a-62da-d666-e402" name="Bird (Massive)" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="664a-62da-d666-e402" name="Bird (Massive)" hidden="false" collective="false" import="true" type="unit">
           <profiles>
             <profile id="6822-892a-9776-0833" name="Bird (Massive)" hidden="false" typeId="332f-73cc-aa13-ade3" typeName="Characteristics">
               <characteristics>
@@ -604,7 +544,7 @@
             <cost name="Pennies" typeId="ff86-214c-8f20-99e9" value="40.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="097e-59ed-9c8f-ea36" name="Raptor (Massive)" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="097e-59ed-9c8f-ea36" name="Raptor (Massive)" hidden="false" collective="false" import="true" type="unit">
           <profiles>
             <profile id="fc38-15e2-357d-ebd5" name="Raptor (Massive)" hidden="false" typeId="332f-73cc-aa13-ade3" typeName="Characteristics">
               <characteristics>
@@ -638,7 +578,7 @@
             <cost name="Pennies" typeId="ff86-214c-8f20-99e9" value="64.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="82a0-4014-5ae2-ef05" name="Hound (Massive)" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="82a0-4014-5ae2-ef05" name="Hound (Massive)" hidden="false" collective="false" import="true" type="unit">
           <profiles>
             <profile id="abfe-57a7-694b-d1c3" name="Hound (Massive)" hidden="false" typeId="332f-73cc-aa13-ade3" typeName="Characteristics">
               <characteristics>
