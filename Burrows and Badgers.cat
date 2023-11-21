@@ -753,7 +753,7 @@
   </sharedSelectionEntryGroups>
   <sharedRules>
     <rule id="9bf6-6c0b-7ed9-5a51" name="Bloodhound" hidden="false">
-      <description>The character may re-roll the dice during any Awareness Roll-Offs while Searching for Hidden enemies or spotting Ambushing enemies.</description>
+      <description>The character may re-roll the dice during any Awareness Roll-Offs while Searching for Hidden enemies or spotting Ambushing enemies</description>
     </rule>
     <rule id="7965-8b04-07cc-65ce" name="Cannot Use Any Weapons" hidden="false"/>
     <rule id="c2fd-2c11-24b8-4057" name="Delicate (-2)" hidden="false">
