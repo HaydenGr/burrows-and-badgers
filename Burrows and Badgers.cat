@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="ada8-2d2c-13c7-baf6" name="Burrows and Badgers" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="sys-352e-adc2-7639-d6a9" gameSystemRevision="9" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="ada8-2d2c-13c7-baf6" name="Burrows and Badgers" revision="2" battleScribeVersion="2.03" library="false" gameSystemId="c942-3815-1836-7dbf" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <costTypes>
     <costType id="ff86-214c-8f20-99e9" name="Pennies" defaultCostLimit="-1.0" hidden="false"/>
   </costTypes>
@@ -12,7 +12,6 @@
   </forceEntries>
   <entryLinks>
     <entryLink id="b04d-22c1-e41b-3aeb" name="Den Choice" hidden="false" collective="false" import="true" targetId="287e-895f-0643-32f4" type="selectionEntry"/>
-    <entryLink id="f5b-1682-90da-2911" name="Show/Hide Options" hidden="false" collective="false" import="true" targetId="e8ef-836a-a9d1-901d" type="selectionEntry"/>
     <entryLink id="b24b-3882-215d-e5ff" name="Small Beasts" hidden="false" collective="false" import="true" targetId="4fb1-5838-7a97-341c" type="selectionEntry"/>
     <entryLink id="9ced-465a-d991-5df5" name="Medium Beasts" hidden="false" collective="false" import="true" targetId="4f6a-29ab-ae03-37ca" type="selectionEntry"/>
     <entryLink id="48f0-2d29-4749-1ce9" name="Massive Beasts" hidden="false" collective="false" import="true" targetId="ccf5-47eb-2c8c-84e7" type="selectionEntry"/>
@@ -22,80 +21,27 @@
     <selectionEntry id="4fb1-5838-7a97-341c" name="Small Beasts" hidden="false" collective="false" import="true" type="unit">
       <selectionEntries>
         <selectionEntry id="c8e4-d1d6-e009-731a" name="Bat" hidden="false" collective="false" import="true" type="model">
-          <profiles>
-            <profile id="b72a-3db0-20a5-005a" name="Bat" hidden="false" typeId="c547-1836-d8a-ff4f" typeName="Unit">
-              <characteristics>
-                <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">D4</characteristic>
-                <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">D6</characteristic>
-                <characteristic name="SV" typeId="450-a17e-9d5e-29da">D6</characteristic>
-                <characteristic name="W" typeId="750a-a2ec-90d3-21fe">D6</characteristic>
-                <characteristic name="LD" typeId="58d2-b879-49c7-43bc">D6</characteristic>
-                <characteristic name="OC" typeId="bef7-942a-1a23-59f8">D6</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
           <costs>
-            <cost name="pts" typeId="51b2-306e-1021-d207" value="27.0"/>
             <cost name="Pennies" typeId="ff86-214c-8f20-99e9" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="75e8-a6c9-29a6-5d48" name="Shrew" hidden="false" collective="false" import="true" type="model">
-          <profiles>
-            <profile id="4d8a-fe85-d3ed-b74c" name="Shrew" hidden="false" typeId="c547-1836-d8a-ff4f" typeName="Unit">
-              <characteristics>
-                <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">D6</characteristic>
-                <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">D6</characteristic>
-                <characteristic name="SV" typeId="450-a17e-9d5e-29da">D6</characteristic>
-                <characteristic name="W" typeId="750a-a2ec-90d3-21fe">D6</characteristic>
-                <characteristic name="LD" typeId="58d2-b879-49c7-43bc">D6</characteristic>
-                <characteristic name="OC" typeId="bef7-942a-1a23-59f8">D6</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
           <costs>
-            <cost name="pts" typeId="51b2-306e-1021-d207" value="28.0"/>
             <cost name="Pennies" typeId="ff86-214c-8f20-99e9" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="0b44-a40c-05fb-488a" name="Mouse" hidden="false" collective="false" import="true" type="model">
-          <profiles>
-            <profile id="ec0f-b02a-0583-16da" name="Mouse" hidden="false" typeId="c547-1836-d8a-ff4f" typeName="Unit">
-              <characteristics>
-                <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">D6</characteristic>
-                <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">D6</characteristic>
-                <characteristic name="SV" typeId="450-a17e-9d5e-29da">D4</characteristic>
-                <characteristic name="W" typeId="750a-a2ec-90d3-21fe">D6</characteristic>
-                <characteristic name="LD" typeId="58d2-b879-49c7-43bc">D6</characteristic>
-                <characteristic name="OC" typeId="bef7-942a-1a23-59f8">D6</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
           <costs>
-            <cost name="pts" typeId="51b2-306e-1021-d207" value="24.0"/>
             <cost name="Pennies" typeId="ff86-214c-8f20-99e9" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="33af-0374-857c-6cee" name="Bird (small)" hidden="false" collective="false" import="true" type="model">
-          <profiles>
-            <profile id="d547-4ec9-cb9b-d933" name="Bird (small)" hidden="false" typeId="c547-1836-d8a-ff4f" typeName="Unit">
-              <characteristics>
-                <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">D6</characteristic>
-                <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">D6</characteristic>
-                <characteristic name="SV" typeId="450-a17e-9d5e-29da">D6</characteristic>
-                <characteristic name="W" typeId="750a-a2ec-90d3-21fe">D6</characteristic>
-                <characteristic name="LD" typeId="58d2-b879-49c7-43bc">D6</characteristic>
-                <characteristic name="OC" typeId="bef7-942a-1a23-59f8">D6</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
           <costs>
-            <cost name="pts" typeId="51b2-306e-1021-d207" value="26.0"/>
             <cost name="Pennies" typeId="ff86-214c-8f20-99e9" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <costs>
-        <cost name="pts" typeId="51b2-306e-1021-d207" value="0.0"/>
         <cost name="Pennies" typeId="ff86-214c-8f20-99e9" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -103,13 +49,11 @@
       <selectionEntries>
         <selectionEntry id="87af-ca5a-ab53-9ceb" name="Hedgehog" hidden="false" collective="false" import="true" type="model">
           <costs>
-            <cost name="pts" typeId="51b2-306e-1021-d207" value="29.0"/>
             <cost name="Pennies" typeId="ff86-214c-8f20-99e9" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <costs>
-        <cost name="pts" typeId="51b2-306e-1021-d207" value="0.0"/>
         <cost name="Pennies" typeId="ff86-214c-8f20-99e9" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -120,13 +64,11 @@
       <selectionEntries>
         <selectionEntry id="eb52-e92d-0191-f50c" name="Hare" hidden="false" collective="false" import="true" type="model">
           <costs>
-            <cost name="pts" typeId="51b2-306e-1021-d207" value="53.0"/>
             <cost name="Pennies" typeId="ff86-214c-8f20-99e9" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <costs>
-        <cost name="pts" typeId="51b2-306e-1021-d207" value="0.0"/>
         <cost name="Pennies" typeId="ff86-214c-8f20-99e9" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -137,13 +79,11 @@
       <selectionEntries>
         <selectionEntry id="2b97-b407-90be-3fd1" name="Badger" hidden="false" collective="false" import="true" type="upgrade">
           <costs>
-            <cost name="pts" typeId="51b2-306e-1021-d207" value="65.0"/>
             <cost name="Pennies" typeId="ff86-214c-8f20-99e9" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <costs>
-        <cost name="pts" typeId="51b2-306e-1021-d207" value="0.0"/>
         <cost name="Pennies" typeId="ff86-214c-8f20-99e9" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -151,12 +91,27 @@
       <selectionEntryGroups>
         <selectionEntryGroup id="bc78-62e9-884b-1d6c" name="Den" hidden="false" collective="false" import="true">
           <selectionEntries>
-            <selectionEntry id="23bc-18ae-d5af-0c10" name="Abandoned Burrow" hidden="false" collective="false" import="true" type="upgrade"/>
-            <selectionEntry id="205f-7142-9bcf-301c" name="Ruined farmstead" hidden="false" collective="false" import="true" type="upgrade"/>
-            <selectionEntry id="01a2-14d9-55d4-91d8" name="Town Building" hidden="false" collective="false" import="true" type="upgrade"/>
+            <selectionEntry id="23bc-18ae-d5af-0c10" name="Abandoned Burrow" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="Pennies" typeId="ff86-214c-8f20-99e9" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="205f-7142-9bcf-301c" name="Ruined farmstead" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="Pennies" typeId="ff86-214c-8f20-99e9" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="01a2-14d9-55d4-91d8" name="Town Building" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="Pennies" typeId="ff86-214c-8f20-99e9" value="0.0"/>
+              </costs>
+            </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <costs>
+        <cost name="Pennies" typeId="ff86-214c-8f20-99e9" value="0.0"/>
+      </costs>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
@@ -170,15 +125,7 @@
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="722-5683-4ff-da16" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="d044-31b5-c11a-2504" type="max"/>
           </constraints>
-          <profiles>
-            <profile id="134a-950c-df71-1a76" name="One-Handed Weapon" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
-              <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">If used on its own received String (1) Skill. If Dual-Wielding, give +2 to Strike Roll-Offs but precludes the user of a Shield.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
           <costs>
-            <cost name="p" typeId="51b2-306e-1021-d207" value="8.0"/>
             <cost name="Pennies" typeId="ff86-214c-8f20-99e9" value="8.0"/>
           </costs>
         </selectionEntry>
@@ -186,15 +133,7 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="722-5683-4ff-da16" type="max"/>
           </constraints>
-          <profiles>
-            <profile id="471d-7d60-1f1d-f7e1" name="Double-Handed Weapon" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
-              <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Character receives the Strong (3) Skill while using the weapon.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
           <costs>
-            <cost name="p" typeId="51b2-306e-1021-d207" value="13.0"/>
             <cost name="Pennies" typeId="ff86-214c-8f20-99e9" value="13.0"/>
           </costs>
         </selectionEntry>
@@ -202,15 +141,7 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="722-5683-4ff-da16" type="max"/>
           </constraints>
-          <profiles>
-            <profile id="32de-35c9-8e2f-72" name="Polearms" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
-              <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Character receives +1 to all Strike Roll-Offs and counts as having the Strong (1) Skill.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
           <costs>
-            <cost name="p" typeId="51b2-306e-1021-d207" value="15.0"/>
             <cost name="Pennies" typeId="ff86-214c-8f20-99e9" value="15.0"/>
           </costs>
         </selectionEntry>
@@ -218,15 +149,7 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="722-5683-4ff-da16" type="max"/>
           </constraints>
-          <profiles>
-            <profile id="d2be-fc47-cd4e-92a4" name="Spears" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
-              <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">May be usered as a one handed weapon with a shield or as a polearm.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
           <costs>
-            <cost name="p" typeId="51b2-306e-1021-d207" value="15.0"/>
             <cost name="Pennies" typeId="ff86-214c-8f20-99e9" value="15.0"/>
           </costs>
         </selectionEntry>
@@ -234,106 +157,42 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="722-5683-4ff-da16" type="max"/>
           </constraints>
-          <profiles>
-            <profile id="a15d-cc31-fb32-1ffa" name="Unarmed Attacks" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
-              <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">All Strike and Block Roll-Offs are at a -2 penalty while fighting unarmed.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
           <costs>
-            <cost name="p" typeId="51b2-306e-1021-d207" value="0.0"/>
             <cost name="Pennies" typeId="ff86-214c-8f20-99e9" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="9021-68a8-ecce-e331" name="Bow" hidden="false" collective="false" import="true" type="upgrade">
-          <profiles>
-            <profile id="ef17-62d6-0828-c092" name="Bow" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
-              <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573"/>
-              </characteristics>
-            </profile>
-          </profiles>
           <costs>
-            <cost name="pts" typeId="51b2-306e-1021-d207" value="15.0"/>
             <cost name="Pennies" typeId="ff86-214c-8f20-99e9" value="15.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="000b-ebe5-b676-944f" name="Crossbow" hidden="false" collective="false" import="true" type="upgrade">
-          <profiles>
-            <profile id="8076-719a-b5c2-fbf6" name="Crossbow" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
-              <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573"/>
-              </characteristics>
-            </profile>
-          </profiles>
           <costs>
-            <cost name="pts" typeId="51b2-306e-1021-d207" value="20.0"/>
             <cost name="Pennies" typeId="ff86-214c-8f20-99e9" value="20.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="c897-dfc5-019b-2b4d" name="Sling" hidden="false" collective="false" import="true" type="upgrade">
-          <profiles>
-            <profile id="f525-110b-6097-ca1c" name="Sling" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
-              <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573"/>
-              </characteristics>
-            </profile>
-          </profiles>
           <costs>
-            <cost name="pts" typeId="51b2-306e-1021-d207" value="5.0"/>
             <cost name="Pennies" typeId="ff86-214c-8f20-99e9" value="5.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="772e-c43e-0c52-f250" name="Throwing Knives" hidden="false" collective="false" import="true" type="upgrade">
-          <profiles>
-            <profile id="ad0e-ef94-3156-58f4" name="Throwing Knives" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
-              <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573"/>
-              </characteristics>
-            </profile>
-          </profiles>
           <costs>
-            <cost name="pts" typeId="51b2-306e-1021-d207" value="8.0"/>
             <cost name="Pennies" typeId="ff86-214c-8f20-99e9" value="8.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="ca39-35eb-19dc-26f8" name="Pistols" hidden="false" collective="false" import="true" type="upgrade">
-          <profiles>
-            <profile id="b519-b352-c5b2-5387" name="Pistols" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
-              <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573"/>
-              </characteristics>
-            </profile>
-          </profiles>
           <costs>
-            <cost name="pts" typeId="51b2-306e-1021-d207" value="15.0"/>
             <cost name="Pennies" typeId="ff86-214c-8f20-99e9" value="15.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="1e11-46f6-889d-959b" name="Caliver" hidden="false" collective="false" import="true" type="upgrade">
-          <profiles>
-            <profile id="d7ec-502b-a7ea-6502" name="Caliver" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
-              <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573"/>
-              </characteristics>
-            </profile>
-          </profiles>
           <costs>
-            <cost name="pts" typeId="51b2-306e-1021-d207" value="20.0"/>
             <cost name="Pennies" typeId="ff86-214c-8f20-99e9" value="20.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="0c08-8422-4d21-711e" name="Blunderbuss" hidden="false" collective="false" import="true" type="upgrade">
-          <profiles>
-            <profile id="da54-f91b-0836-5d25" name="Blunderbuss" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
-              <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573"/>
-              </characteristics>
-            </profile>
-          </profiles>
           <costs>
-            <cost name="pts" typeId="51b2-306e-1021-d207" value="20.0"/>
             <cost name="Pennies" typeId="ff86-214c-8f20-99e9" value="20.0"/>
           </costs>
         </selectionEntry>
@@ -348,15 +207,7 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="722-5683-4ff-da16" type="max"/>
           </constraints>
-          <profiles>
-            <profile id="8300-55de-c5ab-d6fc" name="Light Armour" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
-              <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">NECRONS model only. Once per battle, at the end of your opponent’s turn, if the bearer’s unit is not within Engagement Range of any enemy units, the bearer can use this Enhancement. If it does, remove that unit from the battlefield. Then, in the Reinforcements step of your next Movement phase, set up that unit anywhere on the battlefield that is more than 9&quot; horizontally away from all enemy models.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
           <costs>
-            <cost name="pts" typeId="51b2-306e-1021-d207" value="15.0"/>
             <cost name="Pennies" typeId="ff86-214c-8f20-99e9" value="15.0"/>
           </costs>
         </selectionEntry>
@@ -364,15 +215,7 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="722-5683-4ff-da16" type="max"/>
           </constraints>
-          <profiles>
-            <profile id="5f9e-2e01-6aa1-91b1" name="Heavy Armour" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
-              <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">NECRONS model only. While the bearer is leading a unit, models in that unit have the Stealth ability. In addition, each time a ranged attack targets the bearer’s unit, if the attacker is not within 12&quot;, models in that unit have the Benefit of Cover.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
           <costs>
-            <cost name="pts" typeId="51b2-306e-1021-d207" value="25.0"/>
             <cost name="Pennies" typeId="ff86-214c-8f20-99e9" value="25.0"/>
           </costs>
         </selectionEntry>
@@ -380,15 +223,7 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="722-5683-4ff-da16" type="max"/>
           </constraints>
-          <profiles>
-            <profile id="4e94-040d-6eb5-322a" name="Very Heavy Armour" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
-              <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">NECRONS model only. While a friendly NECRONS unit is within 6&quot; of the bearer, that unit counts as being led by a NECRONS CHARACTER model.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
           <costs>
-            <cost name="pts" typeId="51b2-306e-1021-d207" value="35.0"/>
             <cost name="Pennies" typeId="ff86-214c-8f20-99e9" value="35.0"/>
           </costs>
         </selectionEntry>
@@ -396,15 +231,7 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="722-5683-4ff-da16" type="max"/>
           </constraints>
-          <profiles>
-            <profile id="315c-c171-9c3a-d088" name="Buckler" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
-              <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">+1 to Block Roll-Offs</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
           <costs>
-            <cost name="pts" typeId="51b2-306e-1021-d207" value="8.0"/>
             <cost name="Pennies" typeId="ff86-214c-8f20-99e9" value="8.0"/>
           </costs>
         </selectionEntry>
@@ -412,15 +239,7 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="722-5683-4ff-da16" type="max"/>
           </constraints>
-          <profiles>
-            <profile id="8889-6fb7-4cc6-b6f6" name="Light Shield" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
-              <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">+2 to Block Roll-Offs</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
           <costs>
-            <cost name="pts" typeId="51b2-306e-1021-d207" value="12.0"/>
             <cost name="Pennies" typeId="ff86-214c-8f20-99e9" value="12.0"/>
           </costs>
         </selectionEntry>
@@ -428,15 +247,7 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="722-5683-4ff-da16" type="max"/>
           </constraints>
-          <profiles>
-            <profile id="a90f-30cc-e726-2080" name="Heavy Shield" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
-              <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">+2 to Block Roll-Offs and gain Tough (1). In addition, all Nimbleness Roll-Offs suffer a -1 penalty.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
           <costs>
-            <cost name="pts" typeId="51b2-306e-1021-d207" value="20.0"/>
             <cost name="Pennies" typeId="ff86-214c-8f20-99e9" value="20.0"/>
           </costs>
         </selectionEntry>
@@ -448,16 +259,8 @@
       </constraints>
       <selectionEntries>
         <selectionEntry id="d955-f808-e1c0-c09d" name="Camouflage Cloak" hidden="false" collective="false" import="true" type="upgrade">
-          <profiles>
-            <profile id="0deb-6aa2-4618-9393" name="Camouflage Cloak" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
-              <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">A character with a Camouflage cloak gain +1 to all Concealment Roll-Offs, or +3 if no Armour is worn.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
           <costs>
             <cost name="Pennies" typeId="ff86-214c-8f20-99e9" value="15.0"/>
-            <cost name="pts" typeId="51b2-306e-1021-d207" value="15.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
