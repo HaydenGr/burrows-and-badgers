@@ -760,7 +760,7 @@
       <description>This character has a weak constituation and is vulnerable to damage; they must add the Skill level to any Wounds they suffer.</description>
     </rule>
     <rule id="5e46-f709-6215-d51f" name="Fearless" hidden="false">
-      <description>The character ignores Fearsome enemies and may fight them without penalty</description>
+      <description>The character ignores Fearsome enemies and may fight them without penalty.</description>
     </rule>
     <rule id="4575-9d24-0981-c7aa" name="Fearsome" hidden="false">
       <description>Whenever a character declares an Attack Action against a Fearsome creature, or is Attacked by one, they must first Roll-Off their Fortitude against the Fearsome warrior&apos;s Presence. If the Roll-Off is passed, they may Strike and Block as normal. If it is failed, they suffer a -3 penalty to Strike and Block Roll-Offs against that beast for the rest of the Turn. If a Fearsome beast attacks another Fearsome beast, neither needs to Roll-Off, just attack normally.</description>
