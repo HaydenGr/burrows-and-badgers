@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="ada8-2d2c-13c7-baf6" name="Burrows and Badgers" revision="4" battleScribeVersion="2.03" library="false" gameSystemId="c942-3815-1836-7dbf" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="ada8-2d2c-13c7-baf6" name="Burrows and Badgers" revision="5" battleScribeVersion="2.03" library="false" gameSystemId="c942-3815-1836-7dbf" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <costTypes>
     <costType id="ff86-214c-8f20-99e9" name="Pennies" defaultCostLimit="-1.0" hidden="false"/>
   </costTypes>
@@ -92,57 +92,6 @@
     <entryLink id="48f0-2d29-4749-1ce9" name="Massive Beasts" hidden="false" collective="false" import="true" targetId="ccf5-47eb-2c8c-84e7" type="selectionEntry"/>
     <entryLink id="2702-5909-e173-8c87" name="Large Beasts" hidden="false" collective="false" import="true" targetId="9733-8058-4b3e-2327" type="selectionEntry"/>
   </entryLinks>
-  <rules>
-    <rule id="70ed-aed7-dd1c-9376" name="Bloodhound" hidden="false">
-      <description>The character may re-roll the dice during any Awareness Roll-Offs while Searching for Hidden enemies or spotting Ambushing enemies.</description>
-    </rule>
-    <rule id="dec5-2046-3f73-63a7" name="Cannot Use Any Weapons" hidden="false"/>
-    <rule id="9f4b-7297-3ec7-690c" name="Delicate (-2)" hidden="false">
-      <description>This character has a weak constituation and is vulnerable to damage; they must add the Skill level to any Wounds they suffer.</description>
-    </rule>
-    <rule id="0c40-81b5-d05b-338b" name="Fearless" hidden="false">
-      <description>The character ignores Fearsome enemies and may fight them without penalty</description>
-    </rule>
-    <rule id="7c44-c128-d5b5-5938" name="Fearsome" hidden="false">
-      <description>Whenever a character declares an Attack Action against a Fearsome creature, or is Attacked by one, they must first Roll-Off their Fortitude against the Fearsome warrior&apos;s Presence. If the Roll-Off is passed, they may Strike and Block as normal. If it is failed, they suffer a -3 penalty to Strike and Block Roll-Offs against that beast for the rest of the Turn. If a Fearsome beast attacks another Fearsome beast, neither needs to Roll-Off, just attack normally.</description>
-    </rule>
-    <rule id="2538-5df7-89ac-ecef" name="Flight" hidden="false">
-      <description>Character can Move 12&quot; rather than using their Move Statistic. They ignore all Difficult terrain, and may pass directly over any models or terrain in their path. They may not use Weapons or Shields to Strike or Block for the rest of the Turn if they choose to fly but may attack unarmed. The character cannot fly while carrying any scenario specific items, such as treasure counter or a pay-chest. A character may not Fly if wearing Very Heavy Armour, or carrying a Heavy Shield.</description>
-    </rule>
-    <rule id="a9ab-1d2f-9742-b8e7" name="Gifted" hidden="false">
-      <description>Pick one type of magic (Dark, Wild, etc) and add +2 to all Fortitude/Presence Roll-Offs using Spells from that magic type. The Skill can be taken multiple times but only once for each type of magic.</description>
-    </rule>
-    <rule id="ff78-8fe4-f138-27d4" name="Leap" hidden="false">
-      <description>This character treats Difficult vertical terrain as if it were Normal and moves accordingly. They may re-roll their Nimbleness dice when jumping.</description>
-    </rule>
-    <rule id="d8f3-1cce-18d3-99be" name="Natural Hunter" hidden="false">
-      <description>When making Ranged Roll-Offs this character does not benefit from the Perfect Rolls rule.</description>
-    </rule>
-    <rule id="9503-f117-14e8-9811" name="Poison (Pain)" hidden="false">
-      <description>If a weapon coated with Paiun Poison causes any Wounds, the wounded character suffers a -2 penalty to all Roll-Offs and movement. This is cumulative, so any additional Wounds caused by Pain Poinsoned Weapons will add further -2 penalties.</description>
-    </rule>
-    <rule id="da1c-419f-7042-0c71" name="Short Sighted" hidden="false">
-      <description>This character must halve the Range of all Missle Weapons and Spells.</description>
-    </rule>
-    <rule id="5de8-041b-ea78-8248" name="Spines" hidden="false">
-      <description>Add +1 to any Block Roll-Offs.</description>
-    </rule>
-    <rule id="448e-d07f-47b8-3194" name="Strong (1)" hidden="false">
-      <description>Add the Skill level to the Result of any successful close combat or Shooting, with the exception of those made with Crossbows and black Powder Weapons.</description>
-    </rule>
-    <rule id="d829-5700-be5f-5cdc" name="Swim" hidden="false">
-      <description>This character doesn&apos;t treat water terrain pieces as Difficult terrain and may move through them at full speed.</description>
-    </rule>
-    <rule id="d090-7256-bb38-9275" name="Tough (1)" hidden="false">
-      <description>Reduce any Wounds they suffere by the Skill number.</description>
-    </rule>
-    <rule id="c626-888d-22c0-ec78" name="Tunneller" hidden="false">
-      <description>The character may tunnel under Difficult and Impassable terrain, treating it as normal terrain. The character my also being the game undersgroun and be placed anywhere on the table when they take their first Action during the first Turn. They count as having moved, but cannot move any further this Turn, nor do they gain charging bonuses.</description>
-    </rule>
-    <rule id="d55e-9b45-5569-29b5" name="Unarmed Fighter" hidden="false">
-      <description>This character suffers no penalties for fighting without a weapon.</description>
-    </rule>
-  </rules>
   <sharedSelectionEntries>
     <selectionEntry id="4fb1-5838-7a97-341c" name="Small Beasts" hidden="false" collective="false" import="true" type="unit">
       <selectionEntries>
@@ -165,11 +114,11 @@
           <infoGroups>
             <infoGroup id="4e9f-7d99-e8e5-e893" name="Skills" hidden="false">
               <infoLinks>
-                <infoLink id="fac2-c953-1e6f-863e" name="Flight" hidden="false" targetId="2538-5df7-89ac-ecef" type="rule"/>
-                <infoLink id="f587-eaa0-9ec6-d96f" name="Unarmed Fighter" hidden="false" targetId="d55e-9b45-5569-29b5" type="rule"/>
-                <infoLink id="6bca-2bac-13b7-4673" name="Delicate (-2)" hidden="false" targetId="9f4b-7297-3ec7-690c" type="rule"/>
-                <infoLink id="9ac3-03af-ad79-82ad" name="Gifted" hidden="false" targetId="a9ab-1d2f-9742-b8e7" type="rule"/>
-                <infoLink id="0f73-c8be-62d6-12a1" name="Natural Hunter" hidden="false" targetId="d8f3-1cce-18d3-99be" type="rule"/>
+                <infoLink id="fac2-c953-1e6f-863e" name="Flight" hidden="false" targetId="3d6b-3dc8-e141-03a6" type="rule"/>
+                <infoLink id="f587-eaa0-9ec6-d96f" name="Unarmed Fighter" hidden="false" targetId="96eb-e205-ae84-10ee" type="rule"/>
+                <infoLink id="6bca-2bac-13b7-4673" name="Delicate (-2)" hidden="false" targetId="c2fd-2c11-24b8-4057" type="rule"/>
+                <infoLink id="9ac3-03af-ad79-82ad" name="Gifted" hidden="false" targetId="6d80-3ad6-54d6-965d" type="rule"/>
+                <infoLink id="0f73-c8be-62d6-12a1" name="Natural Hunter" hidden="false" targetId="8c87-54fb-48f4-41ca" type="rule"/>
               </infoLinks>
             </infoGroup>
           </infoGroups>
@@ -236,7 +185,7 @@
           <infoGroups>
             <infoGroup id="892c-4675-3167-1e93" name="Skills" hidden="false">
               <infoLinks>
-                <infoLink id="4ad0-7b5d-ad00-4769" name="Flight" hidden="false" targetId="2538-5df7-89ac-ecef" type="rule"/>
+                <infoLink id="4ad0-7b5d-ad00-4769" name="Flight" hidden="false" targetId="3d6b-3dc8-e141-03a6" type="rule"/>
               </infoLinks>
             </infoGroup>
           </infoGroups>
@@ -270,7 +219,7 @@
           <infoGroups>
             <infoGroup id="9cf1-6bfe-dde9-7c52" name="Skills" hidden="false">
               <infoLinks>
-                <infoLink id="ca5b-6349-1794-811f" name="Spines" hidden="false" targetId="5de8-041b-ea78-8248" type="rule"/>
+                <infoLink id="ca5b-6349-1794-811f" name="Spines" hidden="false" targetId="9daf-bfbc-3be2-55a4" type="rule"/>
               </infoLinks>
             </infoGroup>
           </infoGroups>
@@ -297,7 +246,7 @@
           <infoGroups>
             <infoGroup id="6ac8-56e4-c830-8de0" name="Skills" hidden="false">
               <infoLinks>
-                <infoLink id="2d46-e879-5100-cbd1" name="Fearless" hidden="false" targetId="0c40-81b5-d05b-338b" type="rule"/>
+                <infoLink id="2d46-e879-5100-cbd1" name="Fearless" hidden="false" targetId="5e46-f709-6215-d51f" type="rule"/>
               </infoLinks>
             </infoGroup>
           </infoGroups>
@@ -324,9 +273,9 @@
           <infoGroups>
             <infoGroup id="3dd0-4960-53b5-7ab6" name="Skills" hidden="false">
               <infoLinks>
-                <infoLink id="243c-5d19-ccd3-894c" name="Poison (Pain)" hidden="false" targetId="9503-f117-14e8-9811" type="rule"/>
-                <infoLink id="c9f1-5b55-00dd-30a8" name="Unarmed Fighter" hidden="false" targetId="d55e-9b45-5569-29b5" type="rule"/>
-                <infoLink id="798a-9715-52a0-7c84" name="Cannot Use Any Weapons" hidden="false" targetId="dec5-2046-3f73-63a7" type="rule"/>
+                <infoLink id="243c-5d19-ccd3-894c" name="Poison (Pain)" hidden="false" targetId="64d8-14f4-50d2-2775" type="rule"/>
+                <infoLink id="c9f1-5b55-00dd-30a8" name="Unarmed Fighter" hidden="false" targetId="96eb-e205-ae84-10ee" type="rule"/>
+                <infoLink id="798a-9715-52a0-7c84" name="Cannot Use Any Weapons" hidden="false" targetId="7965-8b04-07cc-65ce" type="rule"/>
               </infoLinks>
             </infoGroup>
           </infoGroups>
@@ -363,8 +312,8 @@
           <infoGroups>
             <infoGroup id="24ff-548e-d745-102c" name="Skills" hidden="false">
               <infoLinks>
-                <infoLink id="6e92-cd0b-8a47-5c87" name="Leap" hidden="false" targetId="ff78-8fe4-f138-27d4" type="rule"/>
-                <infoLink id="b7a1-4f83-beca-9ce9" name="Strong (1)" hidden="false" targetId="448e-d07f-47b8-3194" type="rule"/>
+                <infoLink id="6e92-cd0b-8a47-5c87" name="Leap" hidden="false" targetId="cc03-74ee-624d-19f9" type="rule"/>
+                <infoLink id="b7a1-4f83-beca-9ce9" name="Strong (1)" hidden="false" targetId="5b75-1e0f-0b99-ded3" type="rule"/>
               </infoLinks>
             </infoGroup>
           </infoGroups>
@@ -391,14 +340,14 @@
           <infoGroups>
             <infoGroup id="1680-c2c9-0f30-dac6" name="Skills" hidden="false">
               <infoLinks>
-                <infoLink id="11f2-cc42-10aa-def4" name="Strong (1)" hidden="false" targetId="448e-d07f-47b8-3194" type="rule">
+                <infoLink id="11f2-cc42-10aa-def4" name="Strong (1)" hidden="false" targetId="5b75-1e0f-0b99-ded3" type="rule">
                   <modifiers>
                     <modifier type="set" field="name" value="Strong (2)"/>
                   </modifiers>
                 </infoLink>
-                <infoLink id="0e8c-4651-c107-3ba5" name="Tough (1)" hidden="false" targetId="d090-7256-bb38-9275" type="rule"/>
-                <infoLink id="d8ae-3b8d-b5eb-2191" name="Fearsome" hidden="false" targetId="7c44-c128-d5b5-5938" type="rule"/>
-                <infoLink id="a0c0-5af0-eac1-d7bb" name="Natural Hunter" hidden="false" targetId="d8f3-1cce-18d3-99be" type="rule"/>
+                <infoLink id="0e8c-4651-c107-3ba5" name="Tough (1)" hidden="false" targetId="c4fb-ad95-7ac3-2f45" type="rule"/>
+                <infoLink id="d8ae-3b8d-b5eb-2191" name="Fearsome" hidden="false" targetId="4575-9d24-0981-c7aa" type="rule"/>
+                <infoLink id="a0c0-5af0-eac1-d7bb" name="Natural Hunter" hidden="false" targetId="8c87-54fb-48f4-41ca" type="rule"/>
               </infoLinks>
             </infoGroup>
           </infoGroups>
@@ -425,7 +374,7 @@
           <infoGroups>
             <infoGroup id="033c-037b-5072-f5dc" name="Skills" hidden="false">
               <infoLinks>
-                <infoLink id="a40c-2b5e-97e6-099c" name="Strong (1)" hidden="false" targetId="448e-d07f-47b8-3194" type="rule"/>
+                <infoLink id="a40c-2b5e-97e6-099c" name="Strong (1)" hidden="false" targetId="5b75-1e0f-0b99-ded3" type="rule"/>
               </infoLinks>
             </infoGroup>
           </infoGroups>
@@ -462,17 +411,17 @@
           <infoGroups>
             <infoGroup id="3411-67fe-4ce5-655e" name="Skills" hidden="false">
               <infoLinks>
-                <infoLink id="74b5-a6fa-288e-ecef" name="Strong (1)" hidden="false" targetId="448e-d07f-47b8-3194" type="rule">
+                <infoLink id="74b5-a6fa-288e-ecef" name="Strong (1)" hidden="false" targetId="5b75-1e0f-0b99-ded3" type="rule">
                   <modifiers>
                     <modifier type="set" field="name" value="Strong (3)"/>
                   </modifiers>
                 </infoLink>
-                <infoLink id="744e-461e-35b2-e02a" name="Tough (1)" hidden="false" targetId="d090-7256-bb38-9275" type="rule">
+                <infoLink id="744e-461e-35b2-e02a" name="Tough (1)" hidden="false" targetId="c4fb-ad95-7ac3-2f45" type="rule">
                   <modifiers>
                     <modifier type="set" field="name" value="Tough (2)"/>
                   </modifiers>
                 </infoLink>
-                <infoLink id="0819-3bdd-9663-9e37" name="Fearsome" hidden="false" targetId="7c44-c128-d5b5-5938" type="rule"/>
+                <infoLink id="0819-3bdd-9663-9e37" name="Fearsome" hidden="false" targetId="4575-9d24-0981-c7aa" type="rule"/>
               </infoLinks>
             </infoGroup>
           </infoGroups>
@@ -499,17 +448,17 @@
           <infoGroups>
             <infoGroup id="2207-ba4b-7a54-9d40" name="Skills" hidden="false">
               <infoLinks>
-                <infoLink id="5501-917c-9ad9-7892" name="Strong (1)" hidden="false" targetId="448e-d07f-47b8-3194" type="rule">
+                <infoLink id="5501-917c-9ad9-7892" name="Strong (1)" hidden="false" targetId="5b75-1e0f-0b99-ded3" type="rule">
                   <modifiers>
                     <modifier type="set" field="name" value="Strong (2)"/>
                   </modifiers>
                 </infoLink>
-                <infoLink id="be09-29f7-3338-4967" name="Tough (1)" hidden="false" targetId="d090-7256-bb38-9275" type="rule">
+                <infoLink id="be09-29f7-3338-4967" name="Tough (1)" hidden="false" targetId="c4fb-ad95-7ac3-2f45" type="rule">
                   <modifiers>
                     <modifier type="set" field="name" value="Tough (3)"/>
                   </modifiers>
                 </infoLink>
-                <infoLink id="95f4-1f6d-f5bf-6159" name="Swim" hidden="false" targetId="d829-5700-be5f-5cdc" type="rule"/>
+                <infoLink id="95f4-1f6d-f5bf-6159" name="Swim" hidden="false" targetId="0183-1be0-db7a-97c1" type="rule"/>
               </infoLinks>
             </infoGroup>
           </infoGroups>
@@ -536,7 +485,7 @@
           <infoGroups>
             <infoGroup id="f4ad-e645-2ed1-8748" name="Skills" hidden="false">
               <infoLinks>
-                <infoLink id="ca88-1bc3-a328-1e48" name="Flight" hidden="false" targetId="2538-5df7-89ac-ecef" type="rule"/>
+                <infoLink id="ca88-1bc3-a328-1e48" name="Flight" hidden="false" targetId="3d6b-3dc8-e141-03a6" type="rule"/>
               </infoLinks>
             </infoGroup>
           </infoGroups>
@@ -563,10 +512,10 @@
           <infoGroups>
             <infoGroup id="4924-181c-55d0-0cd2" name="Skills" hidden="false">
               <infoLinks>
-                <infoLink id="0968-b8ef-7def-01d8" name="Flight" hidden="false" targetId="2538-5df7-89ac-ecef" type="rule"/>
-                <infoLink id="fad7-c989-c6ea-2d1c" name="Unarmed Fighter" hidden="false" targetId="d55e-9b45-5569-29b5" type="rule"/>
-                <infoLink id="df10-2fb6-a5f5-5063" name="Natural Hunter" hidden="false" targetId="d8f3-1cce-18d3-99be" type="rule"/>
-                <infoLink id="5bf3-ae2a-7ea6-dacf" name="Strong (1)" hidden="false" targetId="448e-d07f-47b8-3194" type="rule">
+                <infoLink id="0968-b8ef-7def-01d8" name="Flight" hidden="false" targetId="3d6b-3dc8-e141-03a6" type="rule"/>
+                <infoLink id="fad7-c989-c6ea-2d1c" name="Unarmed Fighter" hidden="false" targetId="96eb-e205-ae84-10ee" type="rule"/>
+                <infoLink id="df10-2fb6-a5f5-5063" name="Natural Hunter" hidden="false" targetId="8c87-54fb-48f4-41ca" type="rule"/>
+                <infoLink id="5bf3-ae2a-7ea6-dacf" name="Strong (1)" hidden="false" targetId="5b75-1e0f-0b99-ded3" type="rule">
                   <modifiers>
                     <modifier type="set" field="name" value="Strong (3)"/>
                   </modifiers>
@@ -597,13 +546,13 @@
           <infoGroups>
             <infoGroup id="ad4d-129b-a08e-adaf" name="Skills" hidden="false">
               <infoLinks>
-                <infoLink id="72eb-d527-7a40-d769" name="Natural Hunter" hidden="false" targetId="d8f3-1cce-18d3-99be" type="rule"/>
-                <infoLink id="f65a-a2fc-d7c0-b2e6" name="Strong (1)" hidden="false" targetId="448e-d07f-47b8-3194" type="rule">
+                <infoLink id="72eb-d527-7a40-d769" name="Natural Hunter" hidden="false" targetId="8c87-54fb-48f4-41ca" type="rule"/>
+                <infoLink id="f65a-a2fc-d7c0-b2e6" name="Strong (1)" hidden="false" targetId="5b75-1e0f-0b99-ded3" type="rule">
                   <modifiers>
                     <modifier type="set" field="name" value="Strong (3)"/>
                   </modifiers>
                 </infoLink>
-                <infoLink id="1d9e-6fcb-5bf3-acfb" name="Tough (1)" hidden="false" targetId="d090-7256-bb38-9275" type="rule">
+                <infoLink id="1d9e-6fcb-5bf3-acfb" name="Tough (1)" hidden="false" targetId="c4fb-ad95-7ac3-2f45" type="rule">
                   <modifiers>
                     <modifier type="set" field="name" value="Tough (2)"/>
                   </modifiers>
@@ -802,6 +751,57 @@
       </selectionEntries>
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
+  <sharedRules>
+    <rule id="9bf6-6c0b-7ed9-5a51" name="Bloodhound" hidden="false">
+      <description>The character may re-roll the dice during any Awareness Roll-Offs while Searching for Hidden enemies or spotting Ambushing enemies.</description>
+    </rule>
+    <rule id="7965-8b04-07cc-65ce" name="Cannot Use Any Weapons" hidden="false"/>
+    <rule id="c2fd-2c11-24b8-4057" name="Delicate (-2)" hidden="false">
+      <description>This character has a weak constituation and is vulnerable to damage; they must add the Skill level to any Wounds they suffer.</description>
+    </rule>
+    <rule id="5e46-f709-6215-d51f" name="Fearless" hidden="false">
+      <description>The character ignores Fearsome enemies and may fight them without penalty</description>
+    </rule>
+    <rule id="4575-9d24-0981-c7aa" name="Fearsome" hidden="false">
+      <description>Whenever a character declares an Attack Action against a Fearsome creature, or is Attacked by one, they must first Roll-Off their Fortitude against the Fearsome warrior&apos;s Presence. If the Roll-Off is passed, they may Strike and Block as normal. If it is failed, they suffer a -3 penalty to Strike and Block Roll-Offs against that beast for the rest of the Turn. If a Fearsome beast attacks another Fearsome beast, neither needs to Roll-Off, just attack normally.</description>
+    </rule>
+    <rule id="3d6b-3dc8-e141-03a6" name="Flight" hidden="false">
+      <description>Character can Move 12&quot; rather than using their Move Statistic. They ignore all Difficult terrain, and may pass directly over any models or terrain in their path. They may not use Weapons or Shields to Strike or Block for the rest of the Turn if they choose to fly but may attack unarmed. The character cannot fly while carrying any scenario specific items, such as treasure counter or a pay-chest. A character may not Fly if wearing Very Heavy Armour, or carrying a Heavy Shield.</description>
+    </rule>
+    <rule id="6d80-3ad6-54d6-965d" name="Gifted" hidden="false">
+      <description>Pick one type of magic (Dark, Wild, etc) and add +2 to all Fortitude/Presence Roll-Offs using Spells from that magic type. The Skill can be taken multiple times but only once for each type of magic.</description>
+    </rule>
+    <rule id="cc03-74ee-624d-19f9" name="Leap" hidden="false">
+      <description>This character treats Difficult vertical terrain as if it were Normal and moves accordingly. They may re-roll their Nimbleness dice when jumping.</description>
+    </rule>
+    <rule id="8c87-54fb-48f4-41ca" name="Natural Hunter" hidden="false">
+      <description>When making Ranged Roll-Offs this character does not benefit from the Perfect Rolls rule.</description>
+    </rule>
+    <rule id="64d8-14f4-50d2-2775" name="Poison (Pain)" hidden="false">
+      <description>If a weapon coated with Paiun Poison causes any Wounds, the wounded character suffers a -2 penalty to all Roll-Offs and movement. This is cumulative, so any additional Wounds caused by Pain Poinsoned Weapons will add further -2 penalties.</description>
+    </rule>
+    <rule id="5808-e307-7e27-496a" name="Short Sighted" hidden="false">
+      <description>This character must halve the Range of all Missle Weapons and Spells.</description>
+    </rule>
+    <rule id="9daf-bfbc-3be2-55a4" name="Spines" hidden="false">
+      <description>Add +1 to any Block Roll-Offs.</description>
+    </rule>
+    <rule id="5b75-1e0f-0b99-ded3" name="Strong (1)" hidden="false">
+      <description>Add the Skill level to the Result of any successful close combat or Shooting, with the exception of those made with Crossbows and black Powder Weapons.</description>
+    </rule>
+    <rule id="0183-1be0-db7a-97c1" name="Swim" hidden="false">
+      <description>This character doesn&apos;t treat water terrain pieces as Difficult terrain and may move through them at full speed.</description>
+    </rule>
+    <rule id="c4fb-ad95-7ac3-2f45" name="Tough (1)" hidden="false">
+      <description>Reduce any Wounds they suffere by the Skill number.</description>
+    </rule>
+    <rule id="96eb-e205-ae84-10ee" name="Unarmed Fighter" hidden="false">
+      <description>This character suffers no penalties for fighting without a weapon.</description>
+    </rule>
+    <rule id="1015-c7a5-0225-3199" name="Tunneller" hidden="false">
+      <description>The character may tunnel under Difficult and Impassable terrain, treating it as normal terrain. The character my also being the game undersgroun and be placed anywhere on the table when they take their first Action during the first Turn. They count as having moved, but cannot move any further this Turn, nor do they gain charging bonuses.</description>
+    </rule>
+  </sharedRules>
   <sharedProfiles>
     <profile id="c87b-5193-2f4d-b92f" name="Wounds" hidden="false" typeId="5479-2adf-d397-00a2" typeName="Wounds">
       <characteristics>
