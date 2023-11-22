@@ -99,6 +99,10 @@
   </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="4fb1-5838-7a97-341c" name="Small Beasts" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c0be-0f00-f364-b3c8" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d703-2f08-7883-35d7" type="max"/>
+      </constraints>
       <selectionEntries>
         <selectionEntry id="c8e4-d1d6-e009-731a" name="Bat" hidden="false" collective="false" import="true" type="model">
           <profiles>
@@ -123,10 +127,12 @@
                 <infoLink id="f587-eaa0-9ec6-d96f" name="Unarmed Fighter" hidden="false" targetId="96eb-e205-ae84-10ee" type="rule"/>
                 <infoLink id="6bca-2bac-13b7-4673" name="Delicate (-2)" hidden="false" targetId="c2fd-2c11-24b8-4057" type="rule"/>
                 <infoLink id="9ac3-03af-ad79-82ad" name="Gifted" hidden="false" targetId="6d80-3ad6-54d6-965d" type="rule"/>
-                <infoLink id="0f73-c8be-62d6-12a1" name="Natural Hunter" hidden="false" targetId="8c87-54fb-48f4-41ca" type="rule"/>
               </infoLinks>
             </infoGroup>
           </infoGroups>
+          <infoLinks>
+            <infoLink id="fb85-450e-8e3e-343e" name="Natural Hunter" hidden="false" targetId="1148-1884-fbb0-30f0" type="profile"/>
+          </infoLinks>
           <costs>
             <cost name="Pennies" typeId="ff86-214c-8f20-99e9" value="27.0"/>
           </costs>
@@ -204,6 +210,10 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="4f6a-29ab-ae03-37ca" name="Medium Beasts" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8dc5-d1fa-0fb6-04fd" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0ae2-c250-af12-21ac" type="max"/>
+      </constraints>
       <selectionEntries>
         <selectionEntry id="87af-ca5a-ab53-9ceb" name="Hedgehog" hidden="false" collective="false" import="true" type="model">
           <profiles>
@@ -295,10 +305,15 @@
     </selectionEntry>
     <selectionEntry id="9733-8058-4b3e-2327" name="Large Beasts" hidden="false" collective="false" import="true" type="model">
       <constraints>
-        <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9d10-ba6c-44e0-a462" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9d10-ba6c-44e0-a462" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d923-2d58-1826-9afb" type="min"/>
       </constraints>
       <selectionEntries>
         <selectionEntry id="eb52-e92d-0191-f50c" name="Hare" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="89ff-f923-b567-2d48" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0e74-6f5f-7757-904c" type="min"/>
+          </constraints>
           <profiles>
             <profile id="9708-5a4f-ef59-4cec" name="Hare" hidden="false" typeId="332f-73cc-aa13-ade3" typeName="Characteristics">
               <characteristics>
@@ -327,6 +342,10 @@
           </costs>
         </selectionEntry>
         <selectionEntry id="097d-cbb8-64d5-e095" name="Wildcat" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1792-c465-7a2a-a54e" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4c79-8f97-f953-8612" type="max"/>
+          </constraints>
           <profiles>
             <profile id="5790-eebc-ee58-9844" name="Wildcat" hidden="false" typeId="332f-73cc-aa13-ade3" typeName="Characteristics">
               <characteristics>
@@ -345,24 +364,26 @@
           <infoGroups>
             <infoGroup id="1680-c2c9-0f30-dac6" name="Skills" hidden="false">
               <infoLinks>
-                <infoLink id="0e8c-4651-c107-3ba5" name="Tough (1)" hidden="false" targetId="c4fb-ad95-7ac3-2f45" type="rule"/>
-                <infoLink id="d8ae-3b8d-b5eb-2191" name="Fearsome" hidden="false" targetId="4575-9d24-0981-c7aa" type="rule"/>
-                <infoLink id="a0c0-5af0-eac1-d7bb" name="Natural Hunter" hidden="false" targetId="8c87-54fb-48f4-41ca" type="rule"/>
+                <infoLink id="6479-a788-78b6-9bc9" name="Tough (1)" hidden="false" targetId="f69d-f2e9-6e86-bc5e" type="profile"/>
+                <infoLink id="0d2d-bd09-c48e-f9ab" name="Strong (1)" hidden="false" targetId="99d9-042b-ddf2-1262" type="profile">
+                  <modifiers>
+                    <modifier type="set" field="name" value="Strong (2)"/>
+                  </modifiers>
+                </infoLink>
+                <infoLink id="f8e5-b491-8e4f-2ba5" name="Natural Hunter" hidden="false" targetId="1148-1884-fbb0-30f0" type="profile"/>
+                <infoLink id="edd0-aec4-6a90-78ec" name="Fearsome" hidden="false" targetId="eb5e-f5b3-8caa-58c0" type="profile"/>
               </infoLinks>
             </infoGroup>
           </infoGroups>
-          <infoLinks>
-            <infoLink id="c82a-c11f-0a74-2fe8" name="Strong (1)" hidden="false" targetId="99d9-042b-ddf2-1262" type="profile">
-              <modifiers>
-                <modifier type="set" field="name" value="Strong (2)"/>
-              </modifiers>
-            </infoLink>
-          </infoLinks>
           <costs>
             <cost name="Pennies" typeId="ff86-214c-8f20-99e9" value="62.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="10cf-8e7c-1f3b-efa5" name="Fox" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2bcf-1b61-6bf7-10ef" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eeca-0c74-e6b0-0da2" type="min"/>
+          </constraints>
           <profiles>
             <profile id="bfd5-0b68-0ff4-132f" name="Fox" hidden="false" typeId="332f-73cc-aa13-ade3" typeName="Characteristics">
               <characteristics>
@@ -378,9 +399,13 @@
               </characteristics>
             </profile>
           </profiles>
-          <infoLinks>
-            <infoLink id="18c5-c388-4c12-40d0" name="Strong (1)" hidden="false" targetId="99d9-042b-ddf2-1262" type="profile"/>
-          </infoLinks>
+          <infoGroups>
+            <infoGroup id="b0df-771d-13b9-5204" name="Skills" hidden="false">
+              <infoLinks>
+                <infoLink id="4fc8-d2a0-e965-a700" name="Strong (1)" hidden="false" targetId="99d9-042b-ddf2-1262" type="profile"/>
+              </infoLinks>
+            </infoGroup>
+          </infoGroups>
           <costs>
             <cost name="Pennies" typeId="ff86-214c-8f20-99e9" value="43.0"/>
           </costs>
@@ -392,7 +417,8 @@
     </selectionEntry>
     <selectionEntry id="ccf5-47eb-2c8c-84e7" name="Massive Beasts" hidden="false" collective="false" import="true" type="model">
       <constraints>
-        <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="077e-e3bd-7b44-867f" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="077e-e3bd-7b44-867f" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="690a-fd41-5f9e-8894" type="min"/>
       </constraints>
       <selectionEntries>
         <selectionEntry id="2b97-b407-90be-3fd1" name="Badger" hidden="false" collective="false" import="true" type="model">
@@ -419,12 +445,12 @@
                     <modifier type="set" field="name" value="Strong (3)"/>
                   </modifiers>
                 </infoLink>
-                <infoLink id="744e-461e-35b2-e02a" name="Tough (1)" hidden="false" targetId="c4fb-ad95-7ac3-2f45" type="rule">
+                <infoLink id="850f-10f9-f8b8-d8ac" name="Tough (1)" hidden="false" targetId="f69d-f2e9-6e86-bc5e" type="profile">
                   <modifiers>
                     <modifier type="set" field="name" value="Tough (2)"/>
                   </modifiers>
                 </infoLink>
-                <infoLink id="0819-3bdd-9663-9e37" name="Fearsome" hidden="false" targetId="4575-9d24-0981-c7aa" type="rule"/>
+                <infoLink id="c001-1629-5a15-1c3b" name="Fearsome" hidden="false" targetId="eb5e-f5b3-8caa-58c0" type="profile"/>
               </infoLinks>
             </infoGroup>
           </infoGroups>
@@ -456,12 +482,12 @@
                     <modifier type="set" field="name" value="Strong (2)"/>
                   </modifiers>
                 </infoLink>
-                <infoLink id="be09-29f7-3338-4967" name="Tough (1)" hidden="false" targetId="c4fb-ad95-7ac3-2f45" type="rule">
+                <infoLink id="95f4-1f6d-f5bf-6159" name="Swim" hidden="false" targetId="0183-1be0-db7a-97c1" type="rule"/>
+                <infoLink id="1a4a-5bd6-d6f4-963b" name="Tough (1)" hidden="false" targetId="f69d-f2e9-6e86-bc5e" type="profile">
                   <modifiers>
                     <modifier type="set" field="name" value="Tough (3)"/>
                   </modifiers>
                 </infoLink>
-                <infoLink id="95f4-1f6d-f5bf-6159" name="Swim" hidden="false" targetId="0183-1be0-db7a-97c1" type="rule"/>
               </infoLinks>
             </infoGroup>
           </infoGroups>
@@ -517,7 +543,6 @@
               <infoLinks>
                 <infoLink id="0968-b8ef-7def-01d8" name="Flight" hidden="false" targetId="3d6b-3dc8-e141-03a6" type="rule"/>
                 <infoLink id="fad7-c989-c6ea-2d1c" name="Unarmed Fighter" hidden="false" targetId="96eb-e205-ae84-10ee" type="rule"/>
-                <infoLink id="df10-2fb6-a5f5-5063" name="Natural Hunter" hidden="false" targetId="8c87-54fb-48f4-41ca" type="rule"/>
                 <infoLink id="5bf3-ae2a-7ea6-dacf" name="Strong (1)" hidden="false" targetId="5b75-1e0f-0b99-ded3" type="rule">
                   <modifiers>
                     <modifier type="set" field="name" value="Strong (3)"/>
@@ -526,6 +551,9 @@
               </infoLinks>
             </infoGroup>
           </infoGroups>
+          <infoLinks>
+            <infoLink id="1c8e-2cd0-7a9f-8858" name="Natural Hunter" hidden="false" targetId="1148-1884-fbb0-30f0" type="profile"/>
+          </infoLinks>
           <costs>
             <cost name="Pennies" typeId="ff86-214c-8f20-99e9" value="64.0"/>
           </costs>
@@ -549,13 +577,12 @@
           <infoGroups>
             <infoGroup id="ad4d-129b-a08e-adaf" name="Skills" hidden="false">
               <infoLinks>
-                <infoLink id="72eb-d527-7a40-d769" name="Natural Hunter" hidden="false" targetId="8c87-54fb-48f4-41ca" type="rule"/>
                 <infoLink id="f65a-a2fc-d7c0-b2e6" name="Strong (1)" hidden="false" targetId="5b75-1e0f-0b99-ded3" type="rule">
                   <modifiers>
                     <modifier type="set" field="name" value="Strong (3)"/>
                   </modifiers>
                 </infoLink>
-                <infoLink id="1d9e-6fcb-5bf3-acfb" name="Tough (1)" hidden="false" targetId="c4fb-ad95-7ac3-2f45" type="rule">
+                <infoLink id="80f4-e84a-0359-db4b" name="Tough (1)" hidden="false" targetId="f69d-f2e9-6e86-bc5e" type="profile">
                   <modifiers>
                     <modifier type="set" field="name" value="Tough (2)"/>
                   </modifiers>
@@ -563,6 +590,9 @@
               </infoLinks>
             </infoGroup>
           </infoGroups>
+          <infoLinks>
+            <infoLink id="ddeb-f145-a03b-b416" name="Natural Hunter" hidden="false" targetId="1148-1884-fbb0-30f0" type="profile"/>
+          </infoLinks>
           <costs>
             <cost name="Pennies" typeId="ff86-214c-8f20-99e9" value="65.0"/>
           </costs>
@@ -761,17 +791,11 @@
     <rule id="5e46-f709-6215-d51f" name="Fearless" hidden="false">
       <description>The character ignores Fearsome enemies and may fight them without penalty.</description>
     </rule>
-    <rule id="4575-9d24-0981-c7aa" name="Fearsome" hidden="false">
-      <description>Whenever a character declares an Attack Action against a Fearsome creature, or is Attacked by one, they must first Roll-Off their Fortitude against the Fearsome warrior&apos;s Presence. If the Roll-Off is passed, they may Strike and Block as normal. If it is failed, they suffer a -3 penalty to Strike and Block Roll-Offs against that beast for the rest of the Turn. If a Fearsome beast attacks another Fearsome beast, neither needs to Roll-Off, just attack normally.</description>
-    </rule>
     <rule id="3d6b-3dc8-e141-03a6" name="Flight" hidden="false">
       <description>Character can Move 12&quot; rather than using their Move Statistic. They ignore all Difficult terrain, and may pass directly over any models or terrain in their path. They may not use Weapons or Shields to Strike or Block for the rest of the Turn if they choose to fly but may attack unarmed. The character cannot fly while carrying any scenario specific items, such as treasure counter or a pay-chest. A character may not Fly if wearing Very Heavy Armour, or carrying a Heavy Shield.</description>
     </rule>
     <rule id="6d80-3ad6-54d6-965d" name="Gifted" hidden="false">
       <description>Pick one type of magic (Dark, Wild, etc) and add +2 to all Fortitude/Presence Roll-Offs using Spells from that magic type. The Skill can be taken multiple times but only once for each type of magic.</description>
-    </rule>
-    <rule id="8c87-54fb-48f4-41ca" name="Natural Hunter" hidden="false">
-      <description>When making Ranged Roll-Offs this character does not benefit from the Perfect Rolls rule.</description>
     </rule>
     <rule id="64d8-14f4-50d2-2775" name="Poison (Pain)" hidden="false">
       <description>If a weapon coated with Paiun Poison causes any Wounds, the wounded character suffers a -2 penalty to all Roll-Offs and movement. This is cumulative, so any additional Wounds caused by Pain Poinsoned Weapons will add further -2 penalties.</description>
@@ -787,9 +811,6 @@
     </rule>
     <rule id="0183-1be0-db7a-97c1" name="Swim" hidden="false">
       <description>This character doesn&apos;t treat water terrain pieces as Difficult terrain and may move through them at full speed.</description>
-    </rule>
-    <rule id="c4fb-ad95-7ac3-2f45" name="Tough (1)" hidden="false">
-      <description>Reduce any Wounds they suffere by the Skill number.</description>
     </rule>
     <rule id="96eb-e205-ae84-10ee" name="Unarmed Fighter" hidden="false">
       <description>This character suffers no penalties for fighting without a weapon.</description>
@@ -867,6 +888,21 @@
     <profile id="8594-7d32-708e-5365" name="Leap" hidden="false" typeId="9ffc-834b-69f8-db0d" typeName="Skill">
       <characteristics>
         <characteristic name="Rule" typeId="fd68-4234-19a3-8c81">This character treats Difficult vertical terrain as if it were Normal and moves accordingly. They may re-roll their Nimbleness dice when jumping.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="eb5e-f5b3-8caa-58c0" name="Fearsome" hidden="false" typeId="9ffc-834b-69f8-db0d" typeName="Skill">
+      <characteristics>
+        <characteristic name="Rule" typeId="fd68-4234-19a3-8c81">Whenever a character declares an Attack Action against a Fearsome creature, or is Attacked by one, they must first Roll-Off their Fortitude against the Fearsome warrior&apos;s Presence. If the Roll-Off is passed, they may Strike and Block as normal. If it is failed, they suffer a -3 penalty to Strike and Block Roll-Offs against that beast for the rest of the Turn. If a Fearsome beast attacks another Fearsome beast, neither needs to Roll-Off, just attack normally.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="1148-1884-fbb0-30f0" name="Natural Hunter" hidden="false" typeId="9ffc-834b-69f8-db0d" typeName="Skill">
+      <characteristics>
+        <characteristic name="Rule" typeId="fd68-4234-19a3-8c81">When making Ranged Roll-Offs this character does not benefit from the Perfect Rolls rule.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="f69d-f2e9-6e86-bc5e" name="Tough (1)" hidden="false" typeId="9ffc-834b-69f8-db0d" typeName="Skill">
+      <characteristics>
+        <characteristic name="Rule" typeId="fd68-4234-19a3-8c81">Reduce any Wounds they suffere by the Skill number.</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>
