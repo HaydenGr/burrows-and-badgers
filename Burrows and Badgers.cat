@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="ada8-2d2c-13c7-baf6" name="Burrows and Badgers" revision="7" battleScribeVersion="2.03" library="false" gameSystemId="c942-3815-1836-7dbf" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="ada8-2d2c-13c7-baf6" name="Burrows and Badgers" revision="8" battleScribeVersion="2.03" library="false" gameSystemId="c942-3815-1836-7dbf" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <costTypes>
     <costType id="ff86-214c-8f20-99e9" name="Pennies" defaultCostLimit="-1.0" hidden="false"/>
   </costTypes>
@@ -98,7 +98,7 @@
     <entryLink id="2702-5909-e173-8c87" name="Large Beasts" hidden="false" collective="false" import="true" targetId="9733-8058-4b3e-2327" type="selectionEntry"/>
   </entryLinks>
   <sharedSelectionEntries>
-    <selectionEntry id="4fb1-5838-7a97-341c" name="Small Beasts" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="4fb1-5838-7a97-341c" name="Small Beasts" hidden="false" collective="false" import="true" type="model">
       <selectionEntries>
         <selectionEntry id="c8e4-d1d6-e009-731a" name="Bat" hidden="false" collective="false" import="true" type="model">
           <profiles>
@@ -203,7 +203,7 @@
         <cost name="Pennies" typeId="ff86-214c-8f20-99e9" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="4f6a-29ab-ae03-37ca" name="Medium Beasts" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="4f6a-29ab-ae03-37ca" name="Medium Beasts" hidden="false" collective="false" import="true" type="model">
       <selectionEntries>
         <selectionEntry id="87af-ca5a-ab53-9ceb" name="Hedgehog" hidden="false" collective="false" import="true" type="model">
           <profiles>
@@ -293,12 +293,12 @@
         <cost name="Pennies" typeId="ff86-214c-8f20-99e9" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="9733-8058-4b3e-2327" name="Large Beasts" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="9733-8058-4b3e-2327" name="Large Beasts" hidden="false" collective="false" import="true" type="model">
       <constraints>
-        <constraint field="selections" scope="primary-category" value="6.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eb3d-cf1a-5cb5-d6a5" type="max"/>
+        <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9d10-ba6c-44e0-a462" type="max"/>
       </constraints>
       <selectionEntries>
-        <selectionEntry id="eb52-e92d-0191-f50c" name="Hare" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="eb52-e92d-0191-f50c" name="Hare" hidden="false" collective="false" import="true" type="upgrade">
           <profiles>
             <profile id="9708-5a4f-ef59-4cec" name="Hare" hidden="false" typeId="332f-73cc-aa13-ade3" typeName="Characteristics">
               <characteristics>
@@ -315,14 +315,10 @@
             </profile>
           </profiles>
           <infoGroups>
-            <infoGroup id="24ff-548e-d745-102c" name="Skills" hidden="false">
-              <infoLinks>
-                <infoLink id="6e92-cd0b-8a47-5c87" name="Leap" hidden="false" targetId="cc03-74ee-624d-19f9" type="rule"/>
-              </infoLinks>
-            </infoGroup>
             <infoGroup id="b75a-6c32-8348-13b9" name="Skills" hidden="false">
               <infoLinks>
                 <infoLink id="ae41-fdc0-8872-6212" name="Strong (1)" hidden="false" targetId="99d9-042b-ddf2-1262" type="profile"/>
+                <infoLink id="8cb0-b96b-877b-385e" name="Leap" hidden="false" targetId="8594-7d32-708e-5365" type="profile"/>
               </infoLinks>
             </infoGroup>
           </infoGroups>
@@ -330,7 +326,7 @@
             <cost name="Pennies" typeId="ff86-214c-8f20-99e9" value="53.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="097d-cbb8-64d5-e095" name="Wildcat" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="097d-cbb8-64d5-e095" name="Wildcat" hidden="false" collective="false" import="true" type="upgrade">
           <profiles>
             <profile id="5790-eebc-ee58-9844" name="Wildcat" hidden="false" typeId="332f-73cc-aa13-ade3" typeName="Characteristics">
               <characteristics>
@@ -366,7 +362,7 @@
             <cost name="Pennies" typeId="ff86-214c-8f20-99e9" value="62.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="10cf-8e7c-1f3b-efa5" name="Fox" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="10cf-8e7c-1f3b-efa5" name="Fox" hidden="false" collective="false" import="true" type="upgrade">
           <profiles>
             <profile id="bfd5-0b68-0ff4-132f" name="Fox" hidden="false" typeId="332f-73cc-aa13-ade3" typeName="Characteristics">
               <characteristics>
@@ -394,9 +390,9 @@
         <cost name="Pennies" typeId="ff86-214c-8f20-99e9" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="ccf5-47eb-2c8c-84e7" name="Massive Beasts" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="ccf5-47eb-2c8c-84e7" name="Massive Beasts" hidden="false" collective="false" import="true" type="model">
       <constraints>
-        <constraint field="selections" scope="primary-category" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ed6b-aee1-9156-0871" type="max"/>
+        <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="077e-e3bd-7b44-867f" type="max"/>
       </constraints>
       <selectionEntries>
         <selectionEntry id="2b97-b407-90be-3fd1" name="Badger" hidden="false" collective="false" import="true" type="model">
@@ -576,31 +572,27 @@
         <cost name="Pennies" typeId="ff86-214c-8f20-99e9" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="287e-895f-0643-32f4" name="Den Choice" hidden="false" collective="false" import="true" type="upgrade">
-      <selectionEntryGroups>
-        <selectionEntryGroup id="bc78-62e9-884b-1d6c" name="Den" hidden="false" collective="false" import="true">
-          <constraints>
-            <constraint field="selections" scope="primary-category" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a8c6-6660-a55c-6c8e" type="max"/>
-          </constraints>
-          <selectionEntries>
-            <selectionEntry id="23bc-18ae-d5af-0c10" name="Abandoned Burrow" hidden="false" collective="false" import="true" type="upgrade">
-              <costs>
-                <cost name="Pennies" typeId="ff86-214c-8f20-99e9" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="205f-7142-9bcf-301c" name="Ruined farmstead" hidden="false" collective="false" import="true" type="upgrade">
-              <costs>
-                <cost name="Pennies" typeId="ff86-214c-8f20-99e9" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="01a2-14d9-55d4-91d8" name="Town Building" hidden="false" collective="false" import="true" type="upgrade">
-              <costs>
-                <cost name="Pennies" typeId="ff86-214c-8f20-99e9" value="0.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-        </selectionEntryGroup>
-      </selectionEntryGroups>
+    <selectionEntry id="287e-895f-0643-32f4" name="Den Choice" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="51fd-4dad-3d09-34ff" type="max"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="8e1f-2b6b-cc4b-6f2d" name="Abandoned Burrow" hidden="false" collective="false" import="true" type="upgrade">
+          <costs>
+            <cost name="Pennies" typeId="ff86-214c-8f20-99e9" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="7cd1-e5b7-b870-fa08" name="Ruined farmstead" hidden="false" collective="false" import="true" type="upgrade">
+          <costs>
+            <cost name="Pennies" typeId="ff86-214c-8f20-99e9" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="ed81-4cb2-8448-f3e9" name="Town Building" hidden="false" collective="false" import="true" type="upgrade">
+          <costs>
+            <cost name="Pennies" typeId="ff86-214c-8f20-99e9" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
       <costs>
         <cost name="Pennies" typeId="ff86-214c-8f20-99e9" value="0.0"/>
       </costs>
@@ -778,9 +770,6 @@
     <rule id="6d80-3ad6-54d6-965d" name="Gifted" hidden="false">
       <description>Pick one type of magic (Dark, Wild, etc) and add +2 to all Fortitude/Presence Roll-Offs using Spells from that magic type. The Skill can be taken multiple times but only once for each type of magic.</description>
     </rule>
-    <rule id="cc03-74ee-624d-19f9" name="Leap" hidden="false">
-      <description>This character treats Difficult vertical terrain as if it were Normal and moves accordingly. They may re-roll their Nimbleness dice when jumping.</description>
-    </rule>
     <rule id="8c87-54fb-48f4-41ca" name="Natural Hunter" hidden="false">
       <description>When making Ranged Roll-Offs this character does not benefit from the Perfect Rolls rule.</description>
     </rule>
@@ -873,6 +862,11 @@
     <profile id="99d9-042b-ddf2-1262" name="Strong (1)" hidden="false" typeId="9ffc-834b-69f8-db0d" typeName="Skill">
       <characteristics>
         <characteristic name="Rule" typeId="fd68-4234-19a3-8c81">Add the Skill level to the Result of any successful close combat or Shooting, with the exception of those made with Crossbows and black Powder Weapons.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="8594-7d32-708e-5365" name="Leap" hidden="false" typeId="9ffc-834b-69f8-db0d" typeName="Skill">
+      <characteristics>
+        <characteristic name="Rule" typeId="fd68-4234-19a3-8c81">This character treats Difficult vertical terrain as if it were Normal and moves accordingly. They may re-roll their Nimbleness dice when jumping.</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>
