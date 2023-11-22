@@ -77,6 +77,11 @@
         <characteristicType id="f4a1-4149-497e-78bb" name="(36)"/>
       </characteristicTypes>
     </profileType>
+    <profileType id="9ffc-834b-69f8-db0d" name="Skill">
+      <characteristicTypes>
+        <characteristicType id="fd68-4234-19a3-8c81" name="Rule"/>
+      </characteristicTypes>
+    </profileType>
   </profileTypes>
   <forceEntries>
     <forceEntry id="5e2a-7ed3-67a6-8120" name="New ForceEntry" hidden="false">
@@ -95,7 +100,7 @@
   <sharedSelectionEntries>
     <selectionEntry id="4fb1-5838-7a97-341c" name="Small Beasts" hidden="false" collective="false" import="true" type="unit">
       <selectionEntries>
-        <selectionEntry id="c8e4-d1d6-e009-731a" name="Bat" hidden="false" collective="false" import="true" type="unit">
+        <selectionEntry id="c8e4-d1d6-e009-731a" name="Bat" hidden="false" collective="false" import="true" type="model">
           <profiles>
             <profile id="a8ad-8233-79b3-b927" name="Bat" hidden="false" typeId="332f-73cc-aa13-ade3" typeName="Characteristics">
               <characteristics>
@@ -126,7 +131,7 @@
             <cost name="Pennies" typeId="ff86-214c-8f20-99e9" value="27.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="75e8-a6c9-29a6-5d48" name="Shrew" hidden="false" collective="false" import="true" type="unit">
+        <selectionEntry id="75e8-a6c9-29a6-5d48" name="Shrew" hidden="false" collective="false" import="true" type="model">
           <profiles>
             <profile id="024a-60f0-493c-c999" name="Shrew" hidden="false" typeId="332f-73cc-aa13-ade3" typeName="Characteristics">
               <characteristics>
@@ -146,7 +151,7 @@
             <cost name="Pennies" typeId="ff86-214c-8f20-99e9" value="28.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="0b44-a40c-05fb-488a" name="Mouse" hidden="false" collective="false" import="true" type="unit">
+        <selectionEntry id="0b44-a40c-05fb-488a" name="Mouse" hidden="false" collective="false" import="true" type="model">
           <profiles>
             <profile id="f6a5-a7ef-99e3-3648" name="Mouse" hidden="false" typeId="332f-73cc-aa13-ade3" typeName="Characteristics">
               <characteristics>
@@ -166,7 +171,7 @@
             <cost name="Pennies" typeId="ff86-214c-8f20-99e9" value="24.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="33af-0374-857c-6cee" name="Bird (small)" hidden="false" collective="false" import="true" type="unit">
+        <selectionEntry id="33af-0374-857c-6cee" name="Bird (small)" hidden="false" collective="false" import="true" type="model">
           <profiles>
             <profile id="5ace-e327-bccc-4ab5" name="Bird (small)" hidden="false" typeId="332f-73cc-aa13-ade3" typeName="Characteristics">
               <characteristics>
@@ -200,7 +205,7 @@
     </selectionEntry>
     <selectionEntry id="4f6a-29ab-ae03-37ca" name="Medium Beasts" hidden="false" collective="false" import="true" type="unit">
       <selectionEntries>
-        <selectionEntry id="87af-ca5a-ab53-9ceb" name="Hedgehog" hidden="false" collective="false" import="true" type="unit">
+        <selectionEntry id="87af-ca5a-ab53-9ceb" name="Hedgehog" hidden="false" collective="false" import="true" type="model">
           <profiles>
             <profile id="3f35-7a25-16f4-0fc7" name="Hedgehog" hidden="false" typeId="332f-73cc-aa13-ade3" typeName="Characteristics">
               <characteristics>
@@ -227,7 +232,7 @@
             <cost name="Pennies" typeId="ff86-214c-8f20-99e9" value="29.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="0cb0-8067-bc05-3cf7" name="Weasel/Stoat" hidden="false" collective="false" import="true" type="unit">
+        <selectionEntry id="0cb0-8067-bc05-3cf7" name="Weasel/Stoat" hidden="false" collective="false" import="true" type="model">
           <profiles>
             <profile id="d0a2-54cf-9465-529d" name="Weasel/Stoat" hidden="false" typeId="332f-73cc-aa13-ade3" typeName="Characteristics">
               <characteristics>
@@ -254,7 +259,7 @@
             <cost name="Pennies" typeId="ff86-214c-8f20-99e9" value="36.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="8de5-c115-551b-345a" name="Adder" hidden="false" collective="false" import="true" type="unit">
+        <selectionEntry id="8de5-c115-551b-345a" name="Adder" hidden="false" collective="false" import="true" type="model">
           <profiles>
             <profile id="8cdf-ca6f-837c-5617" name="Adder" hidden="false" typeId="332f-73cc-aa13-ade3" typeName="Characteristics">
               <characteristics>
@@ -293,7 +298,7 @@
         <constraint field="selections" scope="primary-category" value="6.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eb3d-cf1a-5cb5-d6a5" type="max"/>
       </constraints>
       <selectionEntries>
-        <selectionEntry id="eb52-e92d-0191-f50c" name="Hare" hidden="false" collective="false" import="true" type="unit">
+        <selectionEntry id="eb52-e92d-0191-f50c" name="Hare" hidden="false" collective="false" import="true" type="model">
           <profiles>
             <profile id="9708-5a4f-ef59-4cec" name="Hare" hidden="false" typeId="332f-73cc-aa13-ade3" typeName="Characteristics">
               <characteristics>
@@ -313,7 +318,11 @@
             <infoGroup id="24ff-548e-d745-102c" name="Skills" hidden="false">
               <infoLinks>
                 <infoLink id="6e92-cd0b-8a47-5c87" name="Leap" hidden="false" targetId="cc03-74ee-624d-19f9" type="rule"/>
-                <infoLink id="b7a1-4f83-beca-9ce9" name="Strong (1)" hidden="false" targetId="5b75-1e0f-0b99-ded3" type="rule"/>
+              </infoLinks>
+            </infoGroup>
+            <infoGroup id="b75a-6c32-8348-13b9" name="Skills" hidden="false">
+              <infoLinks>
+                <infoLink id="ae41-fdc0-8872-6212" name="Strong (1)" hidden="false" targetId="99d9-042b-ddf2-1262" type="profile"/>
               </infoLinks>
             </infoGroup>
           </infoGroups>
@@ -321,7 +330,7 @@
             <cost name="Pennies" typeId="ff86-214c-8f20-99e9" value="53.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="097d-cbb8-64d5-e095" name="Wildcat" hidden="false" collective="false" import="true" type="unit">
+        <selectionEntry id="097d-cbb8-64d5-e095" name="Wildcat" hidden="false" collective="false" import="true" type="model">
           <profiles>
             <profile id="5790-eebc-ee58-9844" name="Wildcat" hidden="false" typeId="332f-73cc-aa13-ade3" typeName="Characteristics">
               <characteristics>
@@ -340,14 +349,18 @@
           <infoGroups>
             <infoGroup id="1680-c2c9-0f30-dac6" name="Skills" hidden="false">
               <infoLinks>
-                <infoLink id="11f2-cc42-10aa-def4" name="Strong (1)" hidden="false" targetId="5b75-1e0f-0b99-ded3" type="rule">
+                <infoLink id="0e8c-4651-c107-3ba5" name="Tough (1)" hidden="false" targetId="c4fb-ad95-7ac3-2f45" type="rule"/>
+                <infoLink id="d8ae-3b8d-b5eb-2191" name="Fearsome" hidden="false" targetId="4575-9d24-0981-c7aa" type="rule"/>
+                <infoLink id="a0c0-5af0-eac1-d7bb" name="Natural Hunter" hidden="false" targetId="8c87-54fb-48f4-41ca" type="rule"/>
+              </infoLinks>
+            </infoGroup>
+            <infoGroup id="8418-3e36-3a8c-f1ff" name="Skills" hidden="false">
+              <infoLinks>
+                <infoLink id="d8ec-a261-b678-51db" name="Strong (1)" hidden="false" targetId="99d9-042b-ddf2-1262" type="profile">
                   <modifiers>
                     <modifier type="set" field="name" value="Strong (2)"/>
                   </modifiers>
                 </infoLink>
-                <infoLink id="0e8c-4651-c107-3ba5" name="Tough (1)" hidden="false" targetId="c4fb-ad95-7ac3-2f45" type="rule"/>
-                <infoLink id="d8ae-3b8d-b5eb-2191" name="Fearsome" hidden="false" targetId="4575-9d24-0981-c7aa" type="rule"/>
-                <infoLink id="a0c0-5af0-eac1-d7bb" name="Natural Hunter" hidden="false" targetId="8c87-54fb-48f4-41ca" type="rule"/>
               </infoLinks>
             </infoGroup>
           </infoGroups>
@@ -355,7 +368,7 @@
             <cost name="Pennies" typeId="ff86-214c-8f20-99e9" value="62.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="10cf-8e7c-1f3b-efa5" name="Fox" hidden="false" collective="false" import="true" type="unit">
+        <selectionEntry id="10cf-8e7c-1f3b-efa5" name="Fox" hidden="false" collective="false" import="true" type="model">
           <profiles>
             <profile id="bfd5-0b68-0ff4-132f" name="Fox" hidden="false" typeId="332f-73cc-aa13-ade3" typeName="Characteristics">
               <characteristics>
@@ -372,9 +385,9 @@
             </profile>
           </profiles>
           <infoGroups>
-            <infoGroup id="033c-037b-5072-f5dc" name="Skills" hidden="false">
+            <infoGroup id="b10b-1b81-6c7a-959c" name="Skills" hidden="false">
               <infoLinks>
-                <infoLink id="a40c-2b5e-97e6-099c" name="Strong (1)" hidden="false" targetId="5b75-1e0f-0b99-ded3" type="rule"/>
+                <infoLink id="6264-6b49-f04a-2583" name="Strong (1)" hidden="false" targetId="99d9-042b-ddf2-1262" type="profile"/>
               </infoLinks>
             </infoGroup>
           </infoGroups>
@@ -392,7 +405,7 @@
         <constraint field="selections" scope="primary-category" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ed6b-aee1-9156-0871" type="max"/>
       </constraints>
       <selectionEntries>
-        <selectionEntry id="2b97-b407-90be-3fd1" name="Badger" hidden="false" collective="false" import="true" type="unit">
+        <selectionEntry id="2b97-b407-90be-3fd1" name="Badger" hidden="false" collective="false" import="true" type="model">
           <profiles>
             <profile id="1ef5-f134-9556-ffdb" name="Badger" hidden="false" typeId="332f-73cc-aa13-ade3" typeName="Characteristics">
               <characteristics>
@@ -429,7 +442,7 @@
             <cost name="Pennies" typeId="ff86-214c-8f20-99e9" value="65.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="6574-47c8-179f-20ce" name="Beaver" hidden="false" collective="false" import="true" type="unit">
+        <selectionEntry id="6574-47c8-179f-20ce" name="Beaver" hidden="false" collective="false" import="true" type="model">
           <profiles>
             <profile id="1632-3a7c-219d-a63a" name="Beaver" hidden="false" typeId="332f-73cc-aa13-ade3" typeName="Characteristics">
               <characteristics>
@@ -466,7 +479,7 @@
             <cost name="Pennies" typeId="ff86-214c-8f20-99e9" value="60.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="664a-62da-d666-e402" name="Bird (Massive)" hidden="false" collective="false" import="true" type="unit">
+        <selectionEntry id="664a-62da-d666-e402" name="Bird (Massive)" hidden="false" collective="false" import="true" type="model">
           <profiles>
             <profile id="6822-892a-9776-0833" name="Bird (Massive)" hidden="false" typeId="332f-73cc-aa13-ade3" typeName="Characteristics">
               <characteristics>
@@ -493,7 +506,7 @@
             <cost name="Pennies" typeId="ff86-214c-8f20-99e9" value="40.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="097e-59ed-9c8f-ea36" name="Raptor (Massive)" hidden="false" collective="false" import="true" type="unit">
+        <selectionEntry id="097e-59ed-9c8f-ea36" name="Raptor (Massive)" hidden="false" collective="false" import="true" type="model">
           <profiles>
             <profile id="fc38-15e2-357d-ebd5" name="Raptor (Massive)" hidden="false" typeId="332f-73cc-aa13-ade3" typeName="Characteristics">
               <characteristics>
@@ -527,7 +540,7 @@
             <cost name="Pennies" typeId="ff86-214c-8f20-99e9" value="64.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="82a0-4014-5ae2-ef05" name="Hound (Massive)" hidden="false" collective="false" import="true" type="unit">
+        <selectionEntry id="82a0-4014-5ae2-ef05" name="Hound (Massive)" hidden="false" collective="false" import="true" type="model">
           <profiles>
             <profile id="abfe-57a7-694b-d1c3" name="Hound (Massive)" hidden="false" typeId="332f-73cc-aa13-ade3" typeName="Characteristics">
               <characteristics>
@@ -861,6 +874,11 @@
         <characteristic name="34" typeId="b18e-695f-d50d-1fe2"/>
         <characteristic name="35" typeId="4418-c9ca-a06f-efbc"/>
         <characteristic name="(36)" typeId="f4a1-4149-497e-78bb"/>
+      </characteristics>
+    </profile>
+    <profile id="99d9-042b-ddf2-1262" name="Strong (1)" hidden="false" typeId="9ffc-834b-69f8-db0d" typeName="Skill">
+      <characteristics>
+        <characteristic name="Rule" typeId="fd68-4234-19a3-8c81">Add the Skill level to the Result of any successful close combat or Shooting, with the exception of those made with Crossbows and black Powder Weapons.</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>
