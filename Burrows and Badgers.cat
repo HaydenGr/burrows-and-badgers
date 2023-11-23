@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="ada8-2d2c-13c7-baf6" name="Burrows and Badgers" revision="9" battleScribeVersion="2.03" library="false" gameSystemId="c942-3815-1836-7dbf" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="ada8-2d2c-13c7-baf6" name="Burrows and Badgers" revision="10" battleScribeVersion="2.03" library="false" gameSystemId="c942-3815-1836-7dbf" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <costTypes>
     <costType id="ff86-214c-8f20-99e9" name="Pennies" defaultCostLimit="-1.0" hidden="false"/>
   </costTypes>
@@ -326,7 +326,7 @@
     </selectionEntry>
     <selectionEntry id="9733-8058-4b3e-2327" name="Large Beasts" hidden="false" collective="false" import="true" type="model">
       <constraints>
-        <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9d10-ba6c-44e0-a462" type="max"/>
+        <constraint field="selections" scope="force" value="6.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9d10-ba6c-44e0-a462" type="max"/>
       </constraints>
       <selectionEntries>
         <selectionEntry id="eb52-e92d-0191-f50c" name="Hare" hidden="false" collective="false" import="true" type="upgrade">
@@ -358,6 +358,9 @@
           </infoGroups>
           <selectionEntryGroups>
             <selectionEntryGroup id="445b-bbf6-f542-c4ca" name="Equipment" hidden="false" collective="false" import="true">
+              <constraints>
+                <constraint field="selections" scope="primary-category" value="6.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f6a9-1a1a-17a7-2cc6" type="max"/>
+              </constraints>
               <entryLinks>
                 <entryLink id="80c0-d46b-dc64-3d45" name="Armour" hidden="false" collective="false" import="true" targetId="7954-be37-d43d-f42d" type="selectionEntryGroup"/>
                 <entryLink id="3f4a-afbf-2a20-fc40" name="Items" hidden="false" collective="false" import="true" targetId="906c-4a77-4e9a-03ab" type="selectionEntryGroup"/>
@@ -404,6 +407,9 @@
           </infoGroups>
           <selectionEntryGroups>
             <selectionEntryGroup id="3f1d-94ec-3b1a-fcf8" name="Equipment" hidden="false" collective="false" import="true">
+              <constraints>
+                <constraint field="selections" scope="primary-category" value="6.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="daf1-b5ef-d0d9-10c3" type="max"/>
+              </constraints>
               <entryLinks>
                 <entryLink id="d15a-8f20-941c-2b48" name="Armour" hidden="false" collective="false" import="true" targetId="7954-be37-d43d-f42d" type="selectionEntryGroup"/>
                 <entryLink id="5393-0cb0-eeb0-a926" name="Items" hidden="false" collective="false" import="true" targetId="906c-4a77-4e9a-03ab" type="selectionEntryGroup"/>
@@ -443,6 +449,9 @@
           </infoGroups>
           <selectionEntryGroups>
             <selectionEntryGroup id="adef-ce59-34c5-0a5b" name="Equipment" hidden="false" collective="false" import="true">
+              <constraints>
+                <constraint field="selections" scope="primary-category" value="6.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="24b7-490f-9dd1-ddb0" type="max"/>
+              </constraints>
               <entryLinks>
                 <entryLink id="3ee2-c408-a8f9-80ca" name="Armour" hidden="false" collective="false" import="true" targetId="7954-be37-d43d-f42d" type="selectionEntryGroup"/>
                 <entryLink id="a329-6ced-1f4c-9b93" name="Items" hidden="false" collective="false" import="true" targetId="906c-4a77-4e9a-03ab" type="selectionEntryGroup"/>
@@ -461,7 +470,7 @@
     </selectionEntry>
     <selectionEntry id="ccf5-47eb-2c8c-84e7" name="Massive Beasts" hidden="false" collective="false" import="true" type="model">
       <constraints>
-        <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="077e-e3bd-7b44-867f" type="max"/>
+        <constraint field="selections" scope="force" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="077e-e3bd-7b44-867f" type="max"/>
       </constraints>
       <selectionEntries>
         <selectionEntry id="2b97-b407-90be-3fd1" name="Badger" hidden="false" collective="false" import="true" type="model">
