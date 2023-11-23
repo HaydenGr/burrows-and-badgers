@@ -105,6 +105,9 @@
       </constraints>
       <selectionEntries>
         <selectionEntry id="c8e4-d1d6-e009-731a" name="Bat" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c2e7-5353-43a5-7aee" type="max"/>
+          </constraints>
           <profiles>
             <profile id="a8ad-8233-79b3-b927" name="Bat" hidden="false" typeId="332f-73cc-aa13-ade3" typeName="Characteristics">
               <characteristics>
@@ -138,6 +141,9 @@
           </costs>
         </selectionEntry>
         <selectionEntry id="75e8-a6c9-29a6-5d48" name="Shrew" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f64b-e2ce-3dc6-2fd8" type="max"/>
+          </constraints>
           <profiles>
             <profile id="024a-60f0-493c-c999" name="Shrew" hidden="false" typeId="332f-73cc-aa13-ade3" typeName="Characteristics">
               <characteristics>
@@ -158,6 +164,9 @@
           </costs>
         </selectionEntry>
         <selectionEntry id="0b44-a40c-05fb-488a" name="Mouse" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fe2e-f212-f44b-3f99" type="max"/>
+          </constraints>
           <profiles>
             <profile id="f6a5-a7ef-99e3-3648" name="Mouse" hidden="false" typeId="332f-73cc-aa13-ade3" typeName="Characteristics">
               <characteristics>
@@ -178,6 +187,9 @@
           </costs>
         </selectionEntry>
         <selectionEntry id="33af-0374-857c-6cee" name="Bird (small)" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="29b6-38e7-f54e-aad5" type="max"/>
+          </constraints>
           <profiles>
             <profile id="5ace-e327-bccc-4ab5" name="Bird (small)" hidden="false" typeId="332f-73cc-aa13-ade3" typeName="Characteristics">
               <characteristics>
@@ -216,6 +228,9 @@
       </constraints>
       <selectionEntries>
         <selectionEntry id="87af-ca5a-ab53-9ceb" name="Hedgehog" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9152-0cec-f642-619a" type="max"/>
+          </constraints>
           <profiles>
             <profile id="3f35-7a25-16f4-0fc7" name="Hedgehog" hidden="false" typeId="332f-73cc-aa13-ade3" typeName="Characteristics">
               <characteristics>
@@ -243,6 +258,9 @@
           </costs>
         </selectionEntry>
         <selectionEntry id="0cb0-8067-bc05-3cf7" name="Weasel/Stoat" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="14d9-853e-6b82-92f8" type="max"/>
+          </constraints>
           <profiles>
             <profile id="d0a2-54cf-9465-529d" name="Weasel/Stoat" hidden="false" typeId="332f-73cc-aa13-ade3" typeName="Characteristics">
               <characteristics>
@@ -270,6 +288,9 @@
           </costs>
         </selectionEntry>
         <selectionEntry id="8de5-c115-551b-345a" name="Adder" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ab3a-8789-a197-2ca5" type="max"/>
+          </constraints>
           <profiles>
             <profile id="8cdf-ca6f-837c-5617" name="Adder" hidden="false" typeId="332f-73cc-aa13-ade3" typeName="Characteristics">
               <characteristics>
@@ -305,14 +326,12 @@
     </selectionEntry>
     <selectionEntry id="9733-8058-4b3e-2327" name="Large Beasts" hidden="false" collective="false" import="true" type="model">
       <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9d10-ba6c-44e0-a462" type="max"/>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d923-2d58-1826-9afb" type="min"/>
+        <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9d10-ba6c-44e0-a462" type="max"/>
       </constraints>
       <selectionEntries>
         <selectionEntry id="eb52-e92d-0191-f50c" name="Hare" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="89ff-f923-b567-2d48" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0e74-6f5f-7757-904c" type="min"/>
           </constraints>
           <profiles>
             <profile id="9708-5a4f-ef59-4cec" name="Hare" hidden="false" typeId="332f-73cc-aa13-ade3" typeName="Characteristics">
@@ -352,8 +371,7 @@
         </selectionEntry>
         <selectionEntry id="097d-cbb8-64d5-e095" name="Wildcat" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1792-c465-7a2a-a54e" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4c79-8f97-f953-8612" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="86f5-5e88-3473-d6f1" type="max"/>
           </constraints>
           <profiles>
             <profile id="5790-eebc-ee58-9844" name="Wildcat" hidden="false" typeId="332f-73cc-aa13-ade3" typeName="Characteristics">
@@ -400,7 +418,6 @@
         <selectionEntry id="10cf-8e7c-1f3b-efa5" name="Fox" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2bcf-1b61-6bf7-10ef" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eeca-0c74-e6b0-0da2" type="min"/>
           </constraints>
           <profiles>
             <profile id="bfd5-0b68-0ff4-132f" name="Fox" hidden="false" typeId="332f-73cc-aa13-ade3" typeName="Characteristics">
@@ -444,11 +461,13 @@
     </selectionEntry>
     <selectionEntry id="ccf5-47eb-2c8c-84e7" name="Massive Beasts" hidden="false" collective="false" import="true" type="model">
       <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="077e-e3bd-7b44-867f" type="max"/>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="690a-fd41-5f9e-8894" type="min"/>
+        <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="077e-e3bd-7b44-867f" type="max"/>
       </constraints>
       <selectionEntries>
         <selectionEntry id="2b97-b407-90be-3fd1" name="Badger" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a7e8-729e-ef17-ac22" type="max"/>
+          </constraints>
           <profiles>
             <profile id="1ef5-f134-9556-ffdb" name="Badger" hidden="false" typeId="332f-73cc-aa13-ade3" typeName="Characteristics">
               <characteristics>
@@ -486,6 +505,9 @@
           </costs>
         </selectionEntry>
         <selectionEntry id="6574-47c8-179f-20ce" name="Beaver" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cd1a-75d2-888d-4492" type="max"/>
+          </constraints>
           <profiles>
             <profile id="1632-3a7c-219d-a63a" name="Beaver" hidden="false" typeId="332f-73cc-aa13-ade3" typeName="Characteristics">
               <characteristics>
@@ -523,6 +545,9 @@
           </costs>
         </selectionEntry>
         <selectionEntry id="664a-62da-d666-e402" name="Bird (Massive)" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c875-7e66-5e2a-59ad" type="max"/>
+          </constraints>
           <profiles>
             <profile id="6822-892a-9776-0833" name="Bird (Massive)" hidden="false" typeId="332f-73cc-aa13-ade3" typeName="Characteristics">
               <characteristics>
@@ -550,6 +575,9 @@
           </costs>
         </selectionEntry>
         <selectionEntry id="097e-59ed-9c8f-ea36" name="Raptor (Massive)" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f008-40df-65d4-7790" type="max"/>
+          </constraints>
           <profiles>
             <profile id="fc38-15e2-357d-ebd5" name="Raptor (Massive)" hidden="false" typeId="332f-73cc-aa13-ade3" typeName="Characteristics">
               <characteristics>
@@ -586,6 +614,9 @@
           </costs>
         </selectionEntry>
         <selectionEntry id="82a0-4014-5ae2-ef05" name="Hound (Massive)" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e003-890d-a87a-4ee5" type="max"/>
+          </constraints>
           <profiles>
             <profile id="abfe-57a7-694b-d1c3" name="Hound (Massive)" hidden="false" typeId="332f-73cc-aa13-ade3" typeName="Characteristics">
               <characteristics>
@@ -802,6 +833,61 @@
         <selectionEntry id="d955-f808-e1c0-c09d" name="Camouflage Cloak" hidden="false" collective="false" import="true" type="upgrade">
           <costs>
             <cost name="Pennies" typeId="ff86-214c-8f20-99e9" value="15.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="1be9-e036-5e19-2384" name="Rope &amp; Hook" hidden="false" collective="false" import="true" type="upgrade">
+          <costs>
+            <cost name="Pennies" typeId="ff86-214c-8f20-99e9" value="6.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="186b-5127-742c-75d1" name="Lucky Charm" hidden="false" collective="false" import="true" type="upgrade">
+          <costs>
+            <cost name="Pennies" typeId="ff86-214c-8f20-99e9" value="15.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="19bc-829c-18a9-d3b0" name="Talisman" hidden="false" collective="false" import="true" type="upgrade">
+          <costs>
+            <cost name="Pennies" typeId="ff86-214c-8f20-99e9" value="4.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="d3b9-1bd5-c6a1-192b" name="Mage&apos;s Focus" hidden="false" collective="false" import="true" type="upgrade">
+          <costs>
+            <cost name="Pennies" typeId="ff86-214c-8f20-99e9" value="15.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="5e7c-8258-3064-425f" name="Mage&apos;s Pouch" hidden="false" collective="false" import="true" type="upgrade">
+          <costs>
+            <cost name="Pennies" typeId="ff86-214c-8f20-99e9" value="10.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="4659-cb66-2408-c266" name="Scent Masker" hidden="false" collective="false" import="true" type="upgrade">
+          <costs>
+            <cost name="Pennies" typeId="ff86-214c-8f20-99e9" value="5.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="8b62-0b29-b54d-6f55" name="Healing Potion" hidden="false" collective="false" import="true" type="upgrade">
+          <costs>
+            <cost name="Pennies" typeId="ff86-214c-8f20-99e9" value="5.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="f3d5-2e74-2960-4cbf" name="Broadhead Arrows" hidden="false" collective="false" import="true" type="upgrade">
+          <costs>
+            <cost name="Pennies" typeId="ff86-214c-8f20-99e9" value="1.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="544f-68c8-c0de-d686" name="Bodkin Arrows" hidden="false" collective="false" import="true" type="upgrade">
+          <costs>
+            <cost name="Pennies" typeId="ff86-214c-8f20-99e9" value="1.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="72d5-5565-598b-f496" name="Lead Slignshot" hidden="false" collective="false" import="true" type="upgrade">
+          <costs>
+            <cost name="Pennies" typeId="ff86-214c-8f20-99e9" value="1.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="f4e8-6010-0bce-df93" name="Superior Black Powder" hidden="false" collective="false" import="true" type="upgrade">
+          <costs>
+            <cost name="Pennies" typeId="ff86-214c-8f20-99e9" value="1.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
